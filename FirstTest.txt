@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 123
-ABC
+ABCD
+=======
+123
+>>>>>>> parent of 93bed15 (Corrected FirstTest)
