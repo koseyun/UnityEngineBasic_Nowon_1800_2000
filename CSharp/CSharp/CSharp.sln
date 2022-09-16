@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstProject", "FirstProjec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Variables.csproj", "{00ED26DD-FCAF-4A3F-891E-55BA81575A5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{46D6E3EC-2296-49D4-BE01-BAFD84F1A14C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{46D6E3EC-2296-49D4-BE01-BAFD84F1A14C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassObjectInstance", "ClassObjectInstance\ClassObjectInstance.csproj", "{2E3124AC-07CF-40D6-AF1B-8547015EACE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassObjectInstance", "ClassObjectInstance\ClassObjectInstance.csproj", "{2E3124AC-07CF-40D6-AF1B-8547015EACE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example01_ClassObjectInstance", "Example01_ClassObjectInstance\Example01_ClassObjectInstance.csproj", "{C4458E50-E155-4E6F-9546-75554CAF8BC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2E3124AC-07CF-40D6-AF1B-8547015EACE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E3124AC-07CF-40D6-AF1B-8547015EACE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E3124AC-07CF-40D6-AF1B-8547015EACE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4458E50-E155-4E6F-9546-75554CAF8BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4458E50-E155-4E6F-9546-75554CAF8BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4458E50-E155-4E6F-9546-75554CAF8BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4458E50-E155-4E6F-9546-75554CAF8BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
