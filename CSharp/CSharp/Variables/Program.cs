@@ -23,7 +23,7 @@ namespace Variables
     public class Human
     {
         // 멤버변수 : 클래스 / 구조체 등을 구성하는 멤버로서 선언된 변수 ( 멤버변수 ⊂ 전역변수 )
-        int age;
+        int age; //(4byte 정수형)
         float height; // 4 byte 실수형
         double weight; // 8 byte 실수형
         bool isReseting; // 1 byte 논리형 (true / false 값을 가짐)
