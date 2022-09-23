@@ -38,6 +38,7 @@ namespace Array
             arrString[1] = "이아무개";
             arrString[2] = "박아무개";
             Console.WriteLine(arrString[0]);
+            arrString[3] = "조아무개";
         }
     }
 }
