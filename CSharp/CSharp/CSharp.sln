@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statement_Loops", "Statemen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example02_Array2D", "Example02_Array2D\Example02_Array2D.csproj", "{A6159C86-CEB0-4318-BF86-88B669E950C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{DFACA518-A73D-481A-93FB-F03F262256EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Structure.csproj", "{DFACA518-A73D-481A-93FB-F03F262256EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example03_HorseRacing", "Example03_HorseRacing\Example03_HorseRacing.csproj", "{A3320FFE-AB14-41C6-BCB9-C66255CDB9D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{DFACA518-A73D-481A-93FB-F03F262256EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFACA518-A73D-481A-93FB-F03F262256EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFACA518-A73D-481A-93FB-F03F262256EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3320FFE-AB14-41C6-BCB9-C66255CDB9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3320FFE-AB14-41C6-BCB9-C66255CDB9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3320FFE-AB14-41C6-BCB9-C66255CDB9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3320FFE-AB14-41C6-BCB9-C66255CDB9D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
