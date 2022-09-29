@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Stru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example03_HorseRacing", "Example03_HorseRacing\Example03_HorseRacing.csproj", "{A3320FFE-AB14-41C6-BCB9-C66255CDB9D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassInheritance", "ClassInheritance\ClassInheritance.csproj", "{5AF3CA09-1400-4202-838E-D5794C0BBC5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassInheritance", "ClassInheritance\ClassInheritance.csproj", "{5AF3CA09-1400-4202-838E-D5794C0BBC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{FD3B1F98-0500-446A-9B1C-144C472993CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{5AF3CA09-1400-4202-838E-D5794C0BBC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF3CA09-1400-4202-838E-D5794C0BBC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF3CA09-1400-4202-838E-D5794C0BBC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3B1F98-0500-446A-9B1C-144C472993CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3B1F98-0500-446A-9B1C-144C472993CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3B1F98-0500-446A-9B1C-144C472993CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3B1F98-0500-446A-9B1C-144C472993CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
