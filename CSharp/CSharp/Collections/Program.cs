@@ -20,6 +20,8 @@ namespace Collections
             // Collections
             //-------------------------------------------------------------------
 
+            // ArrayList
+            // C# 의 동적배열
             ArrayList arrayList = new ArrayList();
             arrayList.Add(3); // 3을 박싱 후 해당 참조를 추가한다
             // ArrayList 는 object[] 에다가 데이터를 저장한다
@@ -49,7 +51,7 @@ namespace Collections
             queue.Dequeue();
             
             // Hashtable
-            // Hash(Key) 로 Value 에 접근할 수 있는 자료구조
+            // Hash (Key) 로 Value 에 접근할 수 있는 자료구조
             Hashtable hashtable = new Hashtable();
             hashtable.Add("철수", 240.0f);
             Console.WriteLine((float)hashtable["철수"]);
@@ -71,6 +73,41 @@ namespace Collections
             linkedList.AddLast(3.0f);
             linkedList.Remove(3.0f);
             linkedList.RemoveFirst();
+
+            // Queue<T>
+            Queue<bool> boolqueue = new Queue<bool>();
+            boolqueue.Enqueue(true);
+            boolqueue.Enqueue(false);
+
+            // Stack<T>
+            Stack<double> doubleStack = new Stack<double>();
+            doubleStack.Push(1.0f);
+            doubleStack.Pop();
+
+            // Dictionary<T>
+            // HashTable 의 제너릭 타입
+            // 중복 키를 Add 시 에러
+            Dictionary<string, float> points = new Dictionary<string, float>();
+
+            // key 존재하는지 검색 (인덱서에 Hash("철수") 넣고 예외 던져지는지 체크)
+            if (points.ContainsKey("철수") == false)
+            {
+                points.Add("철수", 1.0f);
+            }
+
+            // value 가져오기 시도 (인덱서에 Hash("철수") 넣고 예외 던져지는지 체크, 안던져지면 out 파라미터에 value 반환)
+            if (points.TryGetValue("철수", out float value))
+            {
+                Console.WriteLine(value);
+            }
+            Console.WriteLine(points["철수"]);
+
+            // HashSet<T>
+            // 중복을 허용하지않는 동적배열(해시의 집합을 표현하기위한 자료구조)
+            // 중복 키를 Add 시 그냥 무시
+            HashSet<int> intSet = new HashSet<int>();
+            intSet.Add(1);
+            intSet.Add(1);
         }
     }
 }
