@@ -28,6 +28,7 @@ namespace MyLinkedList
         public MyLinkedListNode<T> First => _first;
         public MyLinkedListNode<T> Last => _last;
 
+        // O(1)
         public void AddFirst(T value)
         {
             _tmp = new MyLinkedListNode<T>(value);
@@ -45,6 +46,7 @@ namespace MyLinkedList
             _first = _tmp;
         }
 
+        // O(1)
         public void AddLast(T value)
         {
             _tmp = new MyLinkedListNode<T>(value);
@@ -62,6 +64,7 @@ namespace MyLinkedList
             _last = _tmp;
         }
 
+        // O(1)
         public MyLinkedListNode<T> AddBefore(MyLinkedListNode<T> node, T value)
         {
             _tmp = new MyLinkedListNode<T>(value);
@@ -78,11 +81,7 @@ namespace MyLinkedList
             return _tmp;
         }
 
-        // AddAfter(MyLinkedListNode<T> node, T value)
-        // Find(T value)
-        // FindLast(T value)
-        // Remove(T value)
-
+        // O(1)
         public MyLinkedListNode<T> AddAfter(MyLinkedListNode<T> node, T value)
         {
             _tmp = new MyLinkedListNode<T>(value);
@@ -100,6 +99,7 @@ namespace MyLinkedList
             return _tmp;
         }
 
+        // O(N)
         public MyLinkedListNode<T> Find(T value)
         {
             _tmp = _first;
@@ -113,10 +113,10 @@ namespace MyLinkedList
 
                 _tmp = _tmp.Next;
             }
-
             return null;
         }
 
+        //O(N)
         public MyLinkedListNode<T> FindLast(T value)
         {
             _tmp = _last;
@@ -133,6 +133,7 @@ namespace MyLinkedList
             return null;
         }
 
+        // O(N)
         public bool Remove(T value)
         {
             _tmp = Find(value);
@@ -150,6 +151,23 @@ namespace MyLinkedList
             return false;
         }
 
+        // O(1)
+        public bool Remove(MyLinkedListNode<T> node)
+        {
+            if (node != null)
+            {
+                if (node.Prev != null)
+                    node.Prev.Next = node.Next;
+                if (node.Next != null)
+                    node.Next.Prev = node.Prev;
+
+                node = node.Next = node.Prev = null;
+                return true;
+            }
+            return false;
+        }
+
+        // O(N)
         public bool RemoveLast(T value)
         {
             _tmp = FindLast(value);
