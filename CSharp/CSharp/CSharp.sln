@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDynamicArray", "MyDynamic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLinkedList", "MyLinkedList\MyLinkedList.csproj", "{897604F2-7EDA-447F-8C00-C4C3548986C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionaryOfT", "MyDictionaryOfT\MyDictionaryOfT.csproj", "{675C0A63-0767-418E-94DC-C61F275BDC68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDictionaryOfT", "MyDictionaryOfT\MyDictionaryOfT.csproj", "{675C0A63-0767-418E-94DC-C61F275BDC68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBinaryTreeOfT", "MyBinaryTree\MyBinaryTreeOfT.csproj", "{735AC655-61B1-4F7E-AEA3-55A5E011B8BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBinaryTreeOfT", "MyBinaryTree\MyBinaryTreeOfT.csproj", "{735AC655-61B1-4F7E-AEA3-55A5E011B8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingArgorithms", "SortingArgorithms\SortingArgorithms.csproj", "{7E7C4CC4-2F41-4DEE-8DD7-D8E4EA44CC8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{735AC655-61B1-4F7E-AEA3-55A5E011B8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735AC655-61B1-4F7E-AEA3-55A5E011B8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735AC655-61B1-4F7E-AEA3-55A5E011B8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7C4CC4-2F41-4DEE-8DD7-D8E4EA44CC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7C4CC4-2F41-4DEE-8DD7-D8E4EA44CC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7C4CC4-2F41-4DEE-8DD7-D8E4EA44CC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7C4CC4-2F41-4DEE-8DD7-D8E4EA44CC8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
