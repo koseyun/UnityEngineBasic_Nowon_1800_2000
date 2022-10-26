@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public void OnAnimatorMove(Transform target)
+    public static Player Instance;
+
+    private void Awake()
     {
-        transform.position = target.position;
+        Instance = this;
+    }
+
+    public void Move(Vector2 target)
+    {
+        transform.position = target;
     }
 }
