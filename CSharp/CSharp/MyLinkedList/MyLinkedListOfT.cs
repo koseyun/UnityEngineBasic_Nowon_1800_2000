@@ -195,10 +195,10 @@ namespace MyLinkedList
             return GetEnumerator();
         }
 
-        public struct Enumerator : IEnumerator<T>
+        public struct Enumerator : IEnumerator<T> //열거자
         {
-            private readonly MyLinkedList<T> _data;
-            private MyLinkedListNode<T> _currentNode;
+            private readonly MyLinkedList<T> _data; //데이터 필요
+            private MyLinkedListNode<T> _currentNode; //현재 가리키는 데이터 참조 또는 값
             public T Current => _currentNode.Value;
 
             object IEnumerator.Current => throw new NotImplementedException();
@@ -226,7 +226,7 @@ namespace MyLinkedList
                 return true;
             }
 
-            public void Reset()
+            public void Reset() //순회 끝나고 다시 되돌려야 함
             {
                 _currentNode = null;
             }
