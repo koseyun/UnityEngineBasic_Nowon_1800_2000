@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 144488613}
   - component: {fileID: 144488612}
-  - component: {fileID: 144488611}
+  - component: {fileID: 144488614}
   m_Layer: 0
   m_Name: NotesMaker
   m_TagString: Untagged
@@ -141,18 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &144488611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144488610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14f8cd860317a774ebed4576e82d3edb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!328 &144488612
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -161,7 +149,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144488610}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 3faa8a304c7307d45908a49104141b69, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5c9e71f71cd75d44fb537a2a58c69c3e, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 519420031}
@@ -179,7 +167,7 @@ VideoPlayer:
   m_DirectAudioVolumes:
   - 1
   m_Url: 
-  m_EnabledAudioTracks: 00
+  m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 0
@@ -203,6 +191,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144488614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144488610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c00fee63c2a3934699acc35a7183bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &149805460
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 144488611}
+      - m_Target: {fileID: 144488614}
         m_TargetAssemblyTypeName: NotesMaker, Assembly-CSharp
         m_MethodName: StopRecord
         m_Mode: 1
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 144488611}
+      - m_Target: {fileID: 144488614}
         m_TargetAssemblyTypeName: NotesMaker, Assembly-CSharp
         m_MethodName: StartRecord
         m_Mode: 1
