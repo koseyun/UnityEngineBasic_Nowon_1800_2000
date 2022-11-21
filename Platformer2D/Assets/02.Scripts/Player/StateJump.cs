@@ -36,7 +36,7 @@ public class StateJump : StateBase
             case Commands.Idle:
                 break;
             // 순간 Y 속도 0 만들고 위 방향으로 힘 가하기
-            //--------------------------------------
+            //-------------------------------------------------
             case Commands.Prepare:
                 {
                     _rb.velocity = new Vector2(_rb.velocity.x, 0.0f);
@@ -45,15 +45,15 @@ public class StateJump : StateBase
                 }
                 break;
             // 성공적으로 점프 되었는지 (발이 그라운드에서 떨어졌는지)
-            //------------------------------------------------
+            //-------------------------------------------------
             case Commands.Casting:
                 {
-                    if (_groundDetector == false)
+                    if (_groundDetector.IsDetected == false)
                         MoveNext();
                 }
                 break;
             // Y 속도가 음수가 되는순간 점프 액션 종료
-            //------------------------------------------------
+            //-------------------------------------------------
             case Commands.OnAction:
                 {
                     if (_rb.velocity.y < 0)
@@ -61,7 +61,7 @@ public class StateJump : StateBase
                 }
                 break;
             // 점프 상승 끝났으니 떨어지는 Fall 상태로 전환
-            //--------------------------------------------------
+            //-------------------------------------------------
             case Commands.Finish:
                 {
                     next = StateMachine.StateTypes.Fall;
