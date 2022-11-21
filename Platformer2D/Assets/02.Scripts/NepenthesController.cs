@@ -15,6 +15,7 @@ public class NepenthesController : EnemyController
                                              direction: Vector2.zero,
                                              distance: 0.0f,
                                              layerMask: TargetLayer);
+
         if (hit.collider != null)
         {
             Debug.Log("Casted target!");
@@ -30,7 +31,7 @@ public class NepenthesController : EnemyController
             Gizmos.color = Color.magenta;
             Gizmos.DrawWireCube(transform.position + new Vector3(_attackBoxCastCenter.x * Direction, _attackBoxCastCenter.y),
                                 _attackBoxCastSize);
-        }        
+        }
     }
 
     private void OnDrawGizmosSelected()

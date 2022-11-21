@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -73,7 +74,9 @@ public class EnemyController : MonoBehaviour
     private Collider2D _target;
 
     // animation
-    private Animator _animator;    
+    private Animator _animator;
+
+    
 
     private void Awake()
     {
@@ -171,7 +174,7 @@ public class EnemyController : MonoBehaviour
                 break;
             case AI.FollowTarget:
                 {
-                    // 타켓이 범위를 벗어남
+                    // 타겟이 범위를 벗어남
                     if (_target == null ||
                         Vector2.Distance(Rb.position, _target.transform.position) > _aiDetectRange)
                     {
@@ -195,7 +198,7 @@ public class EnemyController : MonoBehaviour
                         {
                             Direction = DIRECTION_LEFT;
                         }
-                    }                    
+                    }
                 }
                 break;
             case AI.AttackTarget:
@@ -351,7 +354,7 @@ public class EnemyController : MonoBehaviour
     // Attack 실행 가능 조건
     private bool CanAttack()
     {
-        // todo -> Check _target in attack range && !Hurt && !Die
+        // todo -> Check target in attack range && !Hurt && !Die
         return true;
     }
 
@@ -366,7 +369,7 @@ public class EnemyController : MonoBehaviour
                 // nothing to do
                 break;
             // 공격 애니메이션 재생
-            //------------------------------------------------------------------
+            //-----------------------------------------------------------------
             case 1:
                 {
                     _animator.Play("Attack");
@@ -374,7 +377,7 @@ public class EnemyController : MonoBehaviour
                 }
                 break;
             // 공격 시전 시간
-            //------------------------------------------------------------------
+            //-----------------------------------------------------------------
             case 2:
                 {
                     if (_animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7f)
@@ -403,6 +406,7 @@ public class EnemyController : MonoBehaviour
 
         return next;
     }
+    
 
     // Hurt 실행 가능 조건
     private bool CanHurt()
@@ -484,6 +488,8 @@ public class EnemyController : MonoBehaviour
 
         return next;
     }
+
+
 
     protected virtual void AttackBehavior()
     {
