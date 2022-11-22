@@ -24,7 +24,8 @@ public class StateJump : StateBase
         base.Execute();
         Animator.Play("Jump");
         Movement.DirectionChangable = true;
-        Movement.Movable = false;        
+        Movement.Movable = false;
+        Movement.RefreshMove();
     }
 
     public override StateMachine.StateTypes Update()
