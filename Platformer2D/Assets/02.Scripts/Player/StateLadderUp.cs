@@ -5,11 +5,13 @@ using UnityEngine;
 public class StateLadderUp : StateBase
 {
     private LadderDetector _ladderDetector;
+    private GroundDetector _groundDetector;
     private Rigidbody2D _rb;
     private Movement _movement;
     public StateLadderUp(StateMachine.StateTypes type, StateMachine machine) : base(type, machine)
     {
-        _ladderDetector = machine.GetComponent<LadderDetector>();
+        _ladderDetector = machine.GetComponentInChildren<LadderDetector>();
+        _groundDetector = machine.GetComponentInChildren<GroundDetector>();
         _rb = machine.GetComponent<Rigidbody2D>();
         _movement = machine.GetComponent<Movement>();
     }
@@ -26,7 +28,17 @@ public class StateLadderUp : StateBase
     public override void Execute()
     {
         base.Execute();
+        _rb.bodyType = RigidbodyType2D.Kinematic;
         Animator.Play("Ladder");
+        _movement.DirectionChangable = false;
+        _movement.Movable = false;
+    }
+
+    public override void Stop()
+    {
+        base.Stop();
+        _rb.bodyType = RigidbodyType2D.Dynamic;
+        Animator.speed = 1.0f;
     }
 
     public override StateMachine.StateTypes Update()
@@ -43,7 +55,7 @@ public class StateLadderUp : StateBase
                     _movement.ResetMove();
 
                     // 아예 밑에서 올라오려할때
-                    if (_rb.position.y <= _ladderDetector.UpBottomEscapePosY)
+                    if (_rb.position.y <= _ladderDetector.UpBottomStartPosY)
                     {
                         _rb.position = new Vector2(_ladderDetector.UpPosX, _ladderDetector.UpBottomStartPosY);
                     }
@@ -60,15 +72,26 @@ public class StateLadderUp : StateBase
                 break;
             case Commands.OnAction:
                 {
+                    //  Vertical 축 입력
+                    float v = Input.GetAxis("Vertical");
+                    Animator.speed = Mathf.Abs(v);
+                    _rb.transform.position += Vector3.up * v * Time.deltaTime;
+
+                    // 탈출 조건
                     if (_rb.position.y > _ladderDetector.UpTopEscapePosY)
                     {
                         _rb.position = new Vector2(_ladderDetector.UpPosX, _ladderDetector.UpLadderTopY);
+                        MoveNext();
                     }
                     else if (_rb.position.y < _ladderDetector.UpBottomEscapePosY)
                     {
                         _rb.position = new Vector2(_ladderDetector.UpPosX, _ladderDetector.UpLadderBottomY);
+                        MoveNext();
                     }
-                    MoveNext();
+                    else if (_groundDetector.IsDetected)
+                    {
+                        MoveNext();
+                    }
                 }
                 break;
             case Commands.Finish:

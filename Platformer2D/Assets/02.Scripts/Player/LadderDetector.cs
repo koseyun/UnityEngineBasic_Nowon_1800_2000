@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 
 public class LadderDetector : MonoBehaviour
@@ -68,6 +67,7 @@ public class LadderDetector : MonoBehaviour
         _upLadder = Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y + _upDetectOffset),
                                             0.01f,
                                             _ladderLayer);
+
         if (_upLadder != null)
         {
             BoxCollider2D ladderBoxCol = (BoxCollider2D)_upLadder;
@@ -82,8 +82,9 @@ public class LadderDetector : MonoBehaviour
         }
 
         _downLadder = Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y + _downDetectOffset),
-                                            0.01f,
-                                            _ladderLayer);
+                                              0.01f,
+                                              _ladderLayer);
+
         if (_downLadder != null)
         {
             BoxCollider2D ladderBoxCol = (BoxCollider2D)_downLadder;
@@ -107,24 +108,24 @@ public class LadderDetector : MonoBehaviour
         if (_upLadder)
         {
             Gizmos.color = Color.white;
-            BoxCollider2D boxcol = (BoxCollider2D)_upLadder;
-            Gizmos.DrawWireCube(boxcol.transform.position + (Vector3)boxcol.offset, boxcol.size);
+            BoxCollider2D boxCol = (BoxCollider2D)_upLadder;
+            Gizmos.DrawWireCube(boxCol.transform.position + (Vector3)boxCol.offset, boxCol.size);
             Gizmos.color = Color.cyan;
-            Gizmos.DrawLine(new Vector3(boxcol.transform.position.x - boxcol.size.x * 0.5f, UpLadderTopY + _topEscapeOffset, 0.0f),
-                            new Vector3(boxcol.transform.position.x + boxcol.size.x * 0.5f, UpLadderTopY + _topEscapeOffset, 0.0f));
-            Gizmos.DrawLine(new Vector3(boxcol.transform.position.x - boxcol.size.x * 0.5f, UpLadderBottomY + _bottomEscapeOffset, 0.0f),
-                            new Vector3(boxcol.transform.position.x + boxcol.size.x * 0.5f, UpLadderBottomY + _bottomEscapeOffset, 0.0f));
+            Gizmos.DrawLine(new Vector3(boxCol.transform.position.x - boxCol.size.x * 0.5f, UpLadderTopY + _topEscapeOffset, 0.0f),
+                            new Vector3(boxCol.transform.position.x + boxCol.size.x * 0.5f, UpLadderTopY + _topEscapeOffset, 0.0f));
+            Gizmos.DrawLine(new Vector3(boxCol.transform.position.x - boxCol.size.x * 0.5f, UpLadderBottomY + _bottomEscapeOffset, 0.0f),
+                            new Vector3(boxCol.transform.position.x + boxCol.size.x * 0.5f, UpLadderBottomY + _bottomEscapeOffset, 0.0f));
         }
         if (_downLadder)
         {
             Gizmos.color = Color.white;
-            BoxCollider2D boxcol = (BoxCollider2D)_downLadder;
-            Gizmos.DrawWireCube(boxcol.transform.position + (Vector3)boxcol.offset, boxcol.size);
+            BoxCollider2D boxCol = (BoxCollider2D)_downLadder;
+            Gizmos.DrawWireCube(boxCol.transform.position + (Vector3)boxCol.offset, boxCol.size);
             Gizmos.color = Color.cyan;
-            Gizmos.DrawLine(new Vector3(boxcol.transform.position.x - boxcol.size.x * 0.5f, DownLadderTopY + _topEscapeOffset, 0.0f),
-                            new Vector3(boxcol.transform.position.x + boxcol.size.x * 0.5f, DownLadderTopY + _topEscapeOffset, 0.0f));
-            Gizmos.DrawLine(new Vector3(boxcol.transform.position.x - boxcol.size.x * 0.5f, DownLadderBottomY + _bottomEscapeOffset, 0.0f),
-                            new Vector3(boxcol.transform.position.x + boxcol.size.x * 0.5f, DownLadderBottomY + _bottomEscapeOffset, 0.0f));
+            Gizmos.DrawLine(new Vector3(boxCol.transform.position.x - boxCol.size.x * 0.5f, DownLadderTopY + _topEscapeOffset, 0.0f),
+                            new Vector3(boxCol.transform.position.x + boxCol.size.x * 0.5f, DownLadderTopY + _topEscapeOffset, 0.0f));
+            Gizmos.DrawLine(new Vector3(boxCol.transform.position.x - boxCol.size.x * 0.5f, DownLadderBottomY + _bottomEscapeOffset, 0.0f),
+                            new Vector3(boxCol.transform.position.x + boxCol.size.x * 0.5f, DownLadderBottomY + _bottomEscapeOffset, 0.0f));
         }
     }
 }
