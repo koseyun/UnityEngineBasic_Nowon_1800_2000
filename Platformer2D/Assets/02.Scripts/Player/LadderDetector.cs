@@ -22,6 +22,7 @@ public class LadderDetector : MonoBehaviour
     public float UpPosX;
     public float DownPosX;
 
+
     public bool CanEscape
     {
         get
@@ -43,9 +44,9 @@ public class LadderDetector : MonoBehaviour
     private float _upDetectOffset => _subjectHeight * 0.8f;
     private float _downDetectOffset => -_subjectHeight * 0.2f;
     private float _topEscapeOffset => -_subjectHeight * 0.1f;
-    private float _bottomEscapeOffset => -_subjectHeight * 0.9f;
+    private float _bottomEscapeOffset => -_subjectHeight * 0.1f;
     private float _topStartOffset => -_subjectHeight * 0.2f;
-    private float _bottomStartOffset => -_subjectHeight * 0.8f;
+    private float _bottomStartOffset => +_subjectHeight * 0.2f;
 
     public float UpLadderTopY;
     public float UpLadderBottomY;
@@ -55,6 +56,7 @@ public class LadderDetector : MonoBehaviour
     private Collider2D _subject;
     private float _subjectHeight;
     [SerializeField] private LayerMask _ladderLayer;
+
 
     private void Awake()
     {
@@ -104,6 +106,7 @@ public class LadderDetector : MonoBehaviour
         Gizmos.color = Color.magenta;
         Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y + _upDetectOffset, 0.0f), 0.01f);
         Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y + _downDetectOffset, 0.0f), 0.01f);
+
 
         if (_upLadder)
         {

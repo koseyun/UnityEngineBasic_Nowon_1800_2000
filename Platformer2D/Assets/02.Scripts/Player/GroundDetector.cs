@@ -46,13 +46,13 @@ public class GroundDetector : MonoBehaviour
                 {
                     StartCoroutine(E_IgnoreGround(hits[i].collider, hits[i]));
                     return true;
-                }                
+                }
             }
         }
         return false;
     }
 
-    public IEnumerator E_IgnoreGround(Collider2D ground, RaycastHit2D hit)
+    private IEnumerator E_IgnoreGround(Collider2D ground, RaycastHit2D hit)
     {
         Physics2D.IgnoreCollision(_subject, ground, true);
         ground.gameObject.layer = 9;
@@ -70,9 +70,9 @@ public class GroundDetector : MonoBehaviour
     private void FixedUpdate()
     {
         Current = Physics2D.OverlapBox((Vector2)transform.position + _offset,
-                                       _size,
-                                       0.0f,
-                                       _groundLayer);
+                                        _size,
+                                        0.0f,
+                                        _groundLayer);        
     }
 
     private void OnDrawGizmosSelected()
@@ -83,6 +83,6 @@ public class GroundDetector : MonoBehaviour
 
         Gizmos.color = Color.green;
         Gizmos.DrawWireCube(transform.position + (Vector3)_offset,
-                            _size);               
+                            _size);        
     }
 }

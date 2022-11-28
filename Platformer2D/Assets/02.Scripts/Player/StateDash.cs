@@ -27,6 +27,7 @@ public class StateDash : StateBase
         Movement.ResetMove();
     }
 
+
     public override StateMachine.StateTypes Update()
     {
         StateMachine.StateTypes next = Type;
@@ -38,7 +39,7 @@ public class StateDash : StateBase
             case Commands.Prepare:
                 {
                     _rb.velocity = Vector2.zero;
-                    _rb.AddForce(Vector2.right * Movement.Direction * 2.0f, ForceMode2D.Impulse);
+                    _rb.AddForce(Vector2.right * Movement.Direction * 3.0f, ForceMode2D.Impulse);
                     Current = Commands.OnAction;
                 }
                 break;
@@ -49,7 +50,7 @@ public class StateDash : StateBase
                     if (Animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
                     {
                         Current = Commands.Finish;
-                    }
+                    }    
                 }
                 break;
             case Commands.Finish:

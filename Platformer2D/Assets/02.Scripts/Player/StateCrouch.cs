@@ -41,6 +41,7 @@ public class StateCrouch : StateBase
         RollBackColliders();
     }
 
+
     public override StateMachine.StateTypes Update()
     {
         StateMachine.StateTypes next = Type;
@@ -55,7 +56,7 @@ public class StateCrouch : StateBase
                 break;
             case Commands.OnAction:
                 {
-                    if (Input.GetKeyDown(KeyCode.LeftAlt))
+                    if (Input.GetKey(KeyCode.LeftAlt))
                         next = StateMachine.StateTypes.Jump;
                     else if (Input.GetKey(KeyCode.DownArrow) == false)
                         next = StateMachine.StateTypes.Idle;

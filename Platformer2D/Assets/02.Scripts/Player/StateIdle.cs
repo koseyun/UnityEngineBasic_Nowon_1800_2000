@@ -42,7 +42,7 @@ public class StateIdle : StateBase
                 break;
             case Commands.Finish:
                 {
-                    if (_groundDetector.IsDetected)
+                    if (_groundDetector.IsDetected == false)
                     {
                         next = StateMachine.StateTypes.Fall;
                     }

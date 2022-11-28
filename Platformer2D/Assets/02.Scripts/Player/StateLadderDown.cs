@@ -63,10 +63,10 @@ public class StateLadderDown : StateBase
                 break;
             case Commands.OnAction:
                 {
-                    //  Vertical 축 입력
+                    // Vertical 축 입력
                     float v = Input.GetAxis("Vertical");
                     Animator.speed = Mathf.Abs(v);
-                    _rb.transform.position += Vector3.up * v * Time.deltaTime;
+                    _rb.position += Vector2.up * v * Time.deltaTime;
 
                     // 탈출 조건
                     if (_rb.position.y > _ladderDetector.DownTopEscapePosY)
