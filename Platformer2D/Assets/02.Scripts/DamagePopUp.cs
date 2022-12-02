@@ -20,9 +20,10 @@ public class DamagePopUp : MonoBehaviour
         return damagePopUp;
     }
 
+
     private void Awake()
     {
-        _text = GetComponent <TMP_Text>();
+        _text = GetComponent<TMP_Text>();
         _color = _text.color;
     }
 
@@ -34,6 +35,7 @@ public class DamagePopUp : MonoBehaviour
         _text.color = _color;
 
         if (_color.a <= 0.0f)
-            Destroy(gameobject);
+            Destroy(gameObject);
     }
+
 }

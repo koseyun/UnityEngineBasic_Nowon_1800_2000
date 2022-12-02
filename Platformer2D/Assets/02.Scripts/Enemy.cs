@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class Enemy : MonoBehaviour
 {
     private int _hp;
@@ -33,6 +32,7 @@ public class Enemy : MonoBehaviour
     public event Action OnHpMin;
     public event Action OnHpDecrease;
 
+
     [SerializeField] private Slider _hpSlider;
 
     public int ATK;
@@ -44,6 +44,7 @@ public class Enemy : MonoBehaviour
         HP -= damage;
         DamagePopUp.Create(1 << hitter.layer, transform.position + Vector3.up * 0.25f, damage);
     }
+
 
     private void Awake()
     {

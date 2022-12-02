@@ -10,7 +10,7 @@ public class StateEdge : StateBase
     {
         EdgeGrab,
         EdgeIdle,
-        EdgeClimb,
+        EdgeClimb
     }
     private EdgeBehaviorTypes _type;
     private EdgeDetector _edgeDetector;
