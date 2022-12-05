@@ -31,10 +31,10 @@ public class Portal : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (IsBusy == false &&
-            Input.GetKey(KeyCode.UpArrow) &&
+            Input.GetKey(KeyCode.UpArrow) && 
             1<<collision.gameObject.layer == _targetLayer)
         {
-            IsBusy= true;
+            IsBusy = true;
             MoveToDestination(collision.gameObject);
         }
     }

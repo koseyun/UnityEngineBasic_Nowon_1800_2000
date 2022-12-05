@@ -43,14 +43,14 @@ public class InputHandler : MonoBehaviour
     // 그럼 임의의 KeyCode 타입 입력이 들어왔을 때 임의의 액션을 수행하기 위해서는 어떤식으로 코드를 작성하면 좋을까? 
     private void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.LeftAlt))
-        {
-            _machine.ChangeState(StateMachine.StateTypes.Jump);
-        }
-        else if (Input.GetKeyDown(KeyCode.I))
-        {
-            // todo -> Open Inventory
-        }*/
+        //if (Input.GetKeyDown(KeyCode.LeftAlt))
+        //{
+        //    _machine.ChangeState(StateMachine.StateTypes.Jump);
+        //}
+        //else if (Input.GetKeyDown(KeyCode.I))
+        //{
+        //    // todo -> Open Inventory
+        //}
 
         foreach (KeyValuePair<KeyCode, Action> pair in _keyDownActions)
         {

@@ -19,7 +19,8 @@ public class StateMachine : MonoBehaviour
         LadderDown,
         Edge,
         Hurt,
-        Die
+        Die,
+        Parry
     }
     public StateTypes CurrentType;
     public StateTypes PreviousType;
@@ -84,6 +85,7 @@ public class StateMachine : MonoBehaviour
         _states.Add(StateTypes.Attack, new StateAttack(StateTypes.Attack, this));
         _states.Add(StateTypes.Hurt, new StateHurt(StateTypes.Hurt, this));
         _states.Add(StateTypes.Die, new StateDie(StateTypes.Die, this));
+        _states.Add(StateTypes.Parry, new StateParry(StateTypes.Parry, this));
     }
 
 
@@ -92,7 +94,7 @@ public class StateMachine : MonoBehaviour
     //                             단축키 등록
     //=====================================================================================
 
-    private void RegisterCallbacks() // 알림설정
+    private void RegisterCallbacks()
     {
         _player.OnHpDecrease += () => ChangeState(StateTypes.Hurt);
         _player.OnHpMin += () => ChangeState(StateTypes.Die);
@@ -118,5 +120,6 @@ public class StateMachine : MonoBehaviour
             success = ChangeState(StateTypes.Crouch);
         });
         InputHandler.Instance.RegisterKeyPressAction(KeyCode.A, () => ChangeState(StateTypes.Attack));
+        InputHandler.Instance.RegisterKeyPressAction(KeyCode.Q, () => ChangeState(StateTypes.Parry));
     }
 }

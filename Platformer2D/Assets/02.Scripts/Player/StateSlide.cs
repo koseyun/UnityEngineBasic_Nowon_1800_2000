@@ -41,6 +41,7 @@ public class StateSlide : StateBase
         RollBackColliders();
     }
 
+
     public override StateMachine.StateTypes Update()
     {
         StateMachine.StateTypes next = Type;

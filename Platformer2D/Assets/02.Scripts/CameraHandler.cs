@@ -25,7 +25,7 @@ public class CameraHandler : MonoBehaviour
             _boundShapeXMin = value.transform.position.x + value.offset.x - value.size.x / 2.0f;
             _boundShapeXMax = value.transform.position.x + value.offset.x + value.size.x / 2.0f;
             _boundShapeYMin = value.transform.position.y + value.offset.y - value.size.y / 2.0f;
-            _boundShapeYMax = value.transform.position.y + value.offset.y + value.size.y / 2.0f;
+            _boundShapeYMax = value.transform.position.y + value.offset.y + value.size.y / 2.0f;            
         }
     }
     private float _boundShapeXMin;
@@ -35,9 +35,10 @@ public class CameraHandler : MonoBehaviour
 
     [SerializeField] private Transform _target;
 
+
     private void Awake()
     {
-        Instance= this;
+        Instance = this;
         _camera = Camera.main;
         BoundShape = _boundShape;
     }
@@ -57,19 +58,19 @@ public class CameraHandler : MonoBehaviour
         Vector3 rightTop = _camera.ViewportToWorldPoint(new Vector3(1.0f, 1.0f, _camera.nearClipPlane));
         Vector3 size = new Vector3(rightTop.x - leftBottom.x, rightTop.y - leftBottom.y, 0.0f);
 
-        // x 최소 경계
+        // X 최소 경계 
         if (smoothPos.x < _boundShapeXMin + size.x / 2.0f)
             smoothPos.x = _boundShapeXMin + size.x / 2.0f;
-        // x 최대 경계
-        else if (smoothPos.x < _boundShapeXMax + size.x / 2.0f)
-            smoothPos.x = _boundShapeXMax + size.x / 2.0f;
+        // X 최대 경계
+        else if (smoothPos.x > _boundShapeXMax - size.x / 2.0f)
+            smoothPos.x = _boundShapeXMax - size.x / 2.0f;
 
-        // Y 최소 경계
-        if (smoothPos.y < _boundShapeXMin + size.y / 2.0f)
-            smoothPos.y = _boundShapeXMin + size.y / 2.0f;
+        // Y 최소 경계 
+        if (smoothPos.y < _boundShapeYMin + size.y / 2.0f)
+            smoothPos.y = _boundShapeYMin + size.y / 2.0f;
         // Y 최대 경계
-        else if (smoothPos.y < _boundShapeYMax + size.y / 2.0f)
-            smoothPos.y = _boundShapeYMax + size.y / 2.0f;
+        else if (smoothPos.y > _boundShapeYMax - size.y / 2.0f)
+            smoothPos.y = _boundShapeYMax - size.y / 2.0f;
 
         _camera.transform.position = smoothPos;
     }

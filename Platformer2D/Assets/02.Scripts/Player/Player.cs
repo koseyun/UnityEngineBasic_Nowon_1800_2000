@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable, IKnockbackable
 {
     public bool Invincible;
     private int _hp;
@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
     public event Action OnHpMin;
     public event Action OnHpDecrease;
 
+
     [SerializeField] private Slider _hpSlider;
 
     public int ATK;
@@ -45,10 +46,11 @@ public class Player : MonoBehaviour
     {
         if (Invincible)
             return;
+
         HP -= damage;
         DamagePopUp.Create(1 << hitter.layer, transform.position + Vector3.up * 0.25f, damage);
         Invincible = true;
-        StartCoroutine(E_SetInvincibleAfterSeconds(false, 1.0f));
+        StartCoroutine(E_SetInvincibleAfterSeconds(false, 1.0f));   
     }
 
     public void Knockback()
@@ -68,13 +70,6 @@ public class Player : MonoBehaviour
     {
         Invincible = false;
     }
-
-    /*IEnumerator E_InvincibleForSeconds()
-    {
-        Invincible = true;
-        yield return new WaitForSeconds(seconds);
-        invoke = false;
-    }*/
 
     IEnumerator E_SetInvincibleAfterSeconds(bool invincible, float sec)
     {
