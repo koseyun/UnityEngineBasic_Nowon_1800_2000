@@ -7,16 +7,15 @@ using UnityEngine;
 /// </summary>
 public class ProjectileDetector : MonoBehaviour
 {
-    public bool IsDetected;
+    public bool IsDetected => ProjectileDetected;
     public Collider2D ProjectileDetected;
-    public Vector3 ProjectileDetectedSpeed
+    public Vector2 ProjectileDetectedVelocity
     {
         get
         {
             return ProjectileDetected.GetComponent<Rigidbody2D>().velocity;
         }
     }
-    public int ProjectileDetectedVelocity;
 
     [SerializeField] private Vector2 _offset;
     [SerializeField] private Vector2 _size;
