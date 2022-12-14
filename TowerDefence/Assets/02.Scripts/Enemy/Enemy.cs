@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        _rb= GetComponent<Rigidbody>();
+        _rb = GetComponent<Rigidbody>();
         _pathfinder = GetComponent<Pathfinder>();
     }
 
@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
         Vector3 targetPos = new Vector3(_nextPoint.position.x,
                                         _rb.position.y,
                                         _nextPoint.position.z);
-        Vector3 dir = (_rb.position - targetPos).normalized;
+        Vector3 dir = (targetPos - _rb.position).normalized;
 
         // 다음 포인트에 도착시
         if (Vector3.Distance(targetPos, _rb.position) < _posTolerance)
@@ -51,7 +51,6 @@ public class Enemy : MonoBehaviour
             {
                 OnReachedToEnd();
             }
-
         }
 
         _rb.rotation = Quaternion.LookRotation(dir);
@@ -61,7 +60,7 @@ public class Enemy : MonoBehaviour
     private bool TryGetNextPoint(int pointIndex, out Transform nextPoint)
     {
         nextPoint = null;
-        
+
         if (pointIndex < _path.Count - 1)
         {
             nextPoint = _path[pointIndex + 1];
@@ -73,6 +72,6 @@ public class Enemy : MonoBehaviour
     private void OnReachedToEnd()
     {
         // todo -> 플레이어 체력 차감
-        // todo -> 자기자신 파괴
+        Destroy(gameObject);
     }
 }
