@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour
                                         _rb.position.y,
                                         _nextPoint.position.z);
         Vector3 dir = (targetPos - _rb.position).normalized;
-
+        
         // 다음 포인트에 도착시
         if (Vector3.Distance(targetPos, _rb.position) < _posTolerance)
         {

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6adf53caa8cd304ab2a184a1445fdff, type: 3}
+  m_Script: {fileID: 11500000, guid: a459600afaf5f614cb4826adb77677f3, type: 3}
   m_Name: Level1
   m_EditorClassIdentifier: 
   Level: 1
@@ -21,13 +21,13 @@ MonoBehaviour:
     - Prefab: {fileID: 5070840237065946004, guid: d628a27bfce95ce40a7ade996baeca05, type: 3}
       Num: 5
       Term: 0.5
-      StartDelay: 0
+      StartDelay: 0.5
       StartPointIndex: 0
       EndPointIndex: 0
     - Prefab: {fileID: 3017475090569087238, guid: da54d7d831f460949be1631c15da9d31, type: 3}
       Num: 2
       Term: 1
-      StartDelay: 0
+      StartDelay: 1
       StartPointIndex: 1
       EndPointIndex: 1
   - Stage: 2
