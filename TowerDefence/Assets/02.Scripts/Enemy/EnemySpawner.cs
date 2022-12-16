@@ -33,7 +33,7 @@ public class EnemySpawner : MonoBehaviour
     public void StartSpawn(int stage)
     {
         // 소환하려는 스테이지가 유효한지 / 이미 소환중인지
-        if (stage < 1 || 
+        if (stage < 1 ||
             stage > Data.StageDatas.Count ||
             _spawnedStageList.Contains(stage))
             return;
@@ -82,7 +82,7 @@ public class EnemySpawner : MonoBehaviour
 
                     // 소환 시작 지연 체크
                     if (_delayTimersList[i][j] <= 0)
-                    { 
+                    {
                         // 소환 주기 체크
                         if (_termTimersList[i][j] <= 0)
                         {
