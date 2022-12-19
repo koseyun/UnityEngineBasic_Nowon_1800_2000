@@ -18,13 +18,13 @@ MonoBehaviour:
   StageDatas:
   - Stage: 1
     SpawnDatas:
-    - Prefab: {fileID: 5070840237065946004, guid: d628a27bfce95ce40a7ade996baeca05, type: 3}
+    - Prefab: {fileID: 941490044175058275, guid: d628a27bfce95ce40a7ade996baeca05, type: 3}
       Num: 5
       Term: 0.5
       StartDelay: 0.5
       StartPointIndex: 0
       EndPointIndex: 0
-    - Prefab: {fileID: 3017475090569087238, guid: da54d7d831f460949be1631c15da9d31, type: 3}
+    - Prefab: {fileID: 941490044175058275, guid: 9dbbe3332b488bb4f8b8674f731a5722, type: 3}
       Num: 2
       Term: 1
       StartDelay: 1
@@ -32,13 +32,13 @@ MonoBehaviour:
       EndPointIndex: 1
   - Stage: 2
     SpawnDatas:
-    - Prefab: {fileID: 5070840237065946004, guid: d628a27bfce95ce40a7ade996baeca05, type: 3}
+    - Prefab: {fileID: 941490044175058275, guid: d628a27bfce95ce40a7ade996baeca05, type: 3}
       Num: 8
       Term: 0.5
       StartDelay: 0.5
       StartPointIndex: 0
       EndPointIndex: 0
-    - Prefab: {fileID: 3017475090569087238, guid: da54d7d831f460949be1631c15da9d31, type: 3}
+    - Prefab: {fileID: 941490044175058275, guid: 9dbbe3332b488bb4f8b8674f731a5722, type: 3}
       Num: 4
       Term: 1
       StartDelay: 1
@@ -46,7 +46,7 @@ MonoBehaviour:
       EndPointIndex: 1
   - Stage: 3
     SpawnDatas:
-    - Prefab: {fileID: 3017475090569087238, guid: da54d7d831f460949be1631c15da9d31, type: 3}
+    - Prefab: {fileID: 941490044175058275, guid: 9dbbe3332b488bb4f8b8674f731a5722, type: 3}
       Num: 12
       Term: 0.5
       StartDelay: 1
