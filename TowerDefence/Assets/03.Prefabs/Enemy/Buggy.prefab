@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4977822485032362550}
   - component: {fileID: 4281550050172055757}
   - component: {fileID: -1305392995187979134}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Buggy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc275853904ce22439515ecb36cccf54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  HpMax: 100
+  Speed: 2
 --- !u!64 &-1305392995187979134
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -96,8 +96,7 @@ public class EnemySpawner : MonoBehaviour
                             Enemy enemy = ObjectPool.Instance.Spawn(_stageDatas[i].SpawnDatas[j].Prefab.name,
                                                                     Paths.Instance.StartPoints[_stageDatas[i].SpawnDatas[j].StartPointIndex].position
                                                                     + _stageDatas[i].SpawnDatas[j].Prefab.transform.position
-                                                                    + _offset,
-                                                                    Quaternion.identity).GetComponent<Enemy>();
+                                                                    + _offset).GetComponent<Enemy>();
 
                             enemy.OnHpMin += () => ObjectPool.Instance.Return(enemy.gameObject);
                             enemy.SetPath(Paths.Instance.StartPoints[_stageDatas[i].SpawnDatas[j].StartPointIndex],

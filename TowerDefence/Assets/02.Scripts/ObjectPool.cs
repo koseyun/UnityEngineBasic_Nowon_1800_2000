@@ -62,7 +62,7 @@ public class ObjectPool : MonoBehaviour
     /// 미리 생성되어있던 객체를 특정 위치에 소환하는 함수 (객체를 풀에서 꺼내쓰는 함수)
     /// 만약 대기열이 비어있으면 새로 생성을 해서라도 소환해줌
     /// </summary>
-    public GameObject Spawn(string name, Vector3 pos, Quaternion rotation)
+    public GameObject Spawn(string name, Vector3 pos)
     {
         if (_queueDictionary.ContainsKey(name) == false)
             return null;
@@ -80,7 +80,6 @@ public class ObjectPool : MonoBehaviour
         GameObject go = _queueDictionary[name].Dequeue();
         go.transform.SetParent(null);
         go.transform.position = pos;
-        go.transform.rotation = rotation;
         go.SetActive(true);
         return go;
     }
