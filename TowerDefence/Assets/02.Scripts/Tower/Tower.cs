@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    public Node Node;
+    public TowerInfo Info;
+    public Node Node { get; set; }
     [SerializeField] private Transform _rotatePoint;
     [SerializeField] private float _detectRange;
     [SerializeField] protected LayerMask TargetLayer;

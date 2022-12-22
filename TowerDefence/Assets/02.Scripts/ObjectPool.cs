@@ -80,6 +80,30 @@ public class ObjectPool : MonoBehaviour
         GameObject go = _queueDictionary[name].Dequeue();
         go.transform.SetParent(null);
         go.transform.position = pos;
+        go.transform.rotation = Quaternion.identity;
+        go.SetActive(true);
+        return go;
+    }
+
+    public GameObject Spawn(string name, Vector3 pos, Quaternion rotation)
+    {
+        if (_queueDictionary.ContainsKey(name) == false)
+            return null;
+
+        // 대기열이 비어있으면 (더이상 소환할 수 있는 객체가 없을 경우) 추가로 생성
+        if (_queueDictionary[name].Count <= 0)
+        {
+            Element element = _elements.Find(e => e.Name == name);
+            for (int i = 0; i < Math.Ceiling(Math.Log10(element.Num)); i++)
+            {
+                InstantiateElement(element);
+            }
+        }
+
+        GameObject go = _queueDictionary[name].Dequeue();
+        go.transform.SetParent(null);
+        go.transform.position = pos;
+        go.transform.rotation = rotation;
         go.SetActive(true);
         return go;
     }

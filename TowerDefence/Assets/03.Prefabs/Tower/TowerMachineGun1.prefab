@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 8089188575280478904}
   - component: {fileID: -7384215813001264166}
   m_Layer: 20
-  m_Name: TowerMachineGun
+  m_Name: TowerMachineGun1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 500dcd87b4832e847853febe376e9aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Node: {fileID: 0}
+  Info: {fileID: 11400000, guid: 0a0fa7d5e41afb64eab9ed674941e65e, type: 2}
   _rotatePoint: {fileID: 4829560232775132449}
   _detectRange: 3
   TargetLayer:
