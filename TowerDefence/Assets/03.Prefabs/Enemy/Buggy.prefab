@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HpMax: 100
-  Speed: 2
+  Speed: 5
 --- !u!64 &-1305392995187979134
 MeshCollider:
   m_ObjectHideFlags: 0

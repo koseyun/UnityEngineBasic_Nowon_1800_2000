@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 2152780}
   - component: {fileID: 2152779}
   - component: {fileID: 2152782}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &8222998
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 8609908}
   - component: {fileID: 8609907}
   - component: {fileID: 8609910}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -443,7 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &23656479
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 29951285}
   - component: {fileID: 29951284}
   - component: {fileID: 29951287}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (161)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -613,7 +613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &32698320
@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 32698323}
   - component: {fileID: 32698322}
   - component: {fileID: 32698325}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &45499856
@@ -1324,7 +1324,7 @@ GameObject:
   - component: {fileID: 62742827}
   - component: {fileID: 62742826}
   - component: {fileID: 62742829}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &70672490
@@ -1437,7 +1437,7 @@ GameObject:
   - component: {fileID: 70672493}
   - component: {fileID: 70672492}
   - component: {fileID: 70672495}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &80336427
@@ -2035,7 +2035,7 @@ GameObject:
   - component: {fileID: 97900943}
   - component: {fileID: 97900942}
   - component: {fileID: 97900945}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (208)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2132,7 +2132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &103008804
@@ -2439,7 +2439,7 @@ GameObject:
   - component: {fileID: 119738435}
   - component: {fileID: 119738434}
   - component: {fileID: 119738437}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (221)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2536,7 +2536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &120406762
@@ -2649,7 +2649,7 @@ GameObject:
   - component: {fileID: 122464551}
   - component: {fileID: 122464550}
   - component: {fileID: 122464553}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2746,7 +2746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &123695831
@@ -3053,7 +3053,7 @@ GameObject:
   - component: {fileID: 138959695}
   - component: {fileID: 138959694}
   - component: {fileID: 138959697}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (244)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3150,7 +3150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &142804443
@@ -3166,7 +3166,7 @@ GameObject:
   - component: {fileID: 142804446}
   - component: {fileID: 142804445}
   - component: {fileID: 142804448}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (265)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3263,7 +3263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &143495768
@@ -3279,7 +3279,7 @@ GameObject:
   - component: {fileID: 143495771}
   - component: {fileID: 143495770}
   - component: {fileID: 143495773}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3376,7 +3376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &148869033
@@ -3683,7 +3683,7 @@ GameObject:
   - component: {fileID: 173518985}
   - component: {fileID: 173518984}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button - MachineGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3704,8 +3704,8 @@ RectTransform:
   m_Father: {fileID: 1222564935}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3979,7 +3979,7 @@ GameObject:
   - component: {fileID: 183507374}
   - component: {fileID: 183507373}
   - component: {fileID: 183507376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4076,7 +4076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &183917981
@@ -4480,7 +4480,7 @@ GameObject:
   - component: {fileID: 206954273}
   - component: {fileID: 206954272}
   - component: {fileID: 206954275}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4577,7 +4577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &209272585
@@ -5175,7 +5175,7 @@ GameObject:
   - component: {fileID: 239381506}
   - component: {fileID: 239381505}
   - component: {fileID: 239381508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5272,7 +5272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &240385181
@@ -5385,7 +5385,7 @@ GameObject:
   - component: {fileID: 245708543}
   - component: {fileID: 245708542}
   - component: {fileID: 245708545}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5482,7 +5482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &247039086
@@ -5983,7 +5983,7 @@ GameObject:
   - component: {fileID: 274898042}
   - component: {fileID: 274898041}
   - component: {fileID: 274898044}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (155)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6080,7 +6080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &275497935
@@ -6290,7 +6290,7 @@ GameObject:
   - component: {fileID: 281026659}
   - component: {fileID: 281026658}
   - component: {fileID: 281026661}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (177)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6387,7 +6387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &282676742
@@ -6694,7 +6694,7 @@ GameObject:
   - component: {fileID: 289456122}
   - component: {fileID: 289456121}
   - component: {fileID: 289456124}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (246)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6791,7 +6791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &297220675
@@ -6904,7 +6904,7 @@ GameObject:
   - component: {fileID: 298793965}
   - component: {fileID: 298793964}
   - component: {fileID: 298793967}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (163)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7001,7 +7001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &301888798
@@ -7114,7 +7114,7 @@ GameObject:
   - component: {fileID: 303464733}
   - component: {fileID: 303464732}
   - component: {fileID: 303464735}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (153)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7211,7 +7211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &313299328
@@ -7227,7 +7227,7 @@ GameObject:
   - component: {fileID: 313299331}
   - component: {fileID: 313299330}
   - component: {fileID: 313299333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7324,7 +7324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &319935722
@@ -7437,7 +7437,7 @@ GameObject:
   - component: {fileID: 326803148}
   - component: {fileID: 326803147}
   - component: {fileID: 326803150}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (238)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7534,7 +7534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &331408337
@@ -7647,7 +7647,7 @@ GameObject:
   - component: {fileID: 334861767}
   - component: {fileID: 334861766}
   - component: {fileID: 334861769}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (147)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7744,7 +7744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &339108606
@@ -7760,7 +7760,7 @@ GameObject:
   - component: {fileID: 339108609}
   - component: {fileID: 339108608}
   - component: {fileID: 339108611}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (123)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7857,7 +7857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &339504668
@@ -8164,7 +8164,7 @@ GameObject:
   - component: {fileID: 356851938}
   - component: {fileID: 356851937}
   - component: {fileID: 356851940}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8261,7 +8261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &362820052
@@ -8665,7 +8665,7 @@ GameObject:
   - component: {fileID: 381789017}
   - component: {fileID: 381789016}
   - component: {fileID: 381789019}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (219)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8762,7 +8762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &387944712
@@ -9069,7 +9069,7 @@ GameObject:
   - component: {fileID: 396267125}
   - component: {fileID: 396267124}
   - component: {fileID: 396267127}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9166,7 +9166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &397964518
@@ -9279,7 +9279,7 @@ GameObject:
   - component: {fileID: 399170197}
   - component: {fileID: 399170196}
   - component: {fileID: 399170199}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (254)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9376,7 +9376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &400690187
@@ -9392,7 +9392,7 @@ GameObject:
   - component: {fileID: 400690190}
   - component: {fileID: 400690189}
   - component: {fileID: 400690192}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9489,7 +9489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &401788384
@@ -9505,7 +9505,7 @@ GameObject:
   - component: {fileID: 401788387}
   - component: {fileID: 401788386}
   - component: {fileID: 401788389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (137)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9602,7 +9602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &408144566
@@ -9618,7 +9618,7 @@ GameObject:
   - component: {fileID: 408144569}
   - component: {fileID: 408144568}
   - component: {fileID: 408144571}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (190)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9715,7 +9715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &412725997
@@ -9828,7 +9828,7 @@ GameObject:
   - component: {fileID: 416796685}
   - component: {fileID: 416796684}
   - component: {fileID: 416796687}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (225)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9925,7 +9925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &420601714
@@ -9941,7 +9941,7 @@ GameObject:
   - component: {fileID: 420601717}
   - component: {fileID: 420601716}
   - component: {fileID: 420601719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10038,7 +10038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &432109180
@@ -10345,7 +10345,7 @@ GameObject:
   - component: {fileID: 456070469}
   - component: {fileID: 456070468}
   - component: {fileID: 456070471}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10442,9 +10442,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
+--- !u!1 &459049204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459049205}
+  - component: {fileID: 459049206}
+  - component: {fileID: 459049207}
+  m_Layer: 5
+  m_Name: Text (TMP) - LifeValue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &459049205
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459049204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1192916378}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 209.5, y: -45}
+  m_SizeDelta: {x: 80, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &459049206
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459049204}
+  m_CullTransparentMesh: 1
+--- !u!114 &459049207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459049204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &461348474
 GameObject:
   m_ObjectHideFlags: 0
@@ -10458,7 +10593,7 @@ GameObject:
   - component: {fileID: 461348477}
   - component: {fileID: 461348476}
   - component: {fileID: 461348479}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (144)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10555,7 +10690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &467094469
@@ -10571,7 +10706,7 @@ GameObject:
   - component: {fileID: 467094472}
   - component: {fileID: 467094471}
   - component: {fileID: 467094474}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (257)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10668,7 +10803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &472537538
@@ -10975,7 +11110,7 @@ GameObject:
   - component: {fileID: 476888042}
   - component: {fileID: 476888041}
   - component: {fileID: 476888044}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (150)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11072,9 +11207,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
+--- !u!1 &481066183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 481066184}
+  - component: {fileID: 481066186}
+  - component: {fileID: 481066185}
+  m_Layer: 5
+  m_Name: Text (TMP) - LifeTitle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &481066184
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481066183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1192916378}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -45}
+  m_SizeDelta: {x: 80, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &481066185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481066183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Life : '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &481066186
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481066183}
+  m_CullTransparentMesh: 1
 --- !u!1 &485943472
 GameObject:
   m_ObjectHideFlags: 0
@@ -11379,7 +11649,7 @@ GameObject:
   - component: {fileID: 504189043}
   - component: {fileID: 504189042}
   - component: {fileID: 504189045}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (263)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11476,7 +11746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &508012117
@@ -11492,7 +11762,7 @@ GameObject:
   - component: {fileID: 508012120}
   - component: {fileID: 508012119}
   - component: {fileID: 508012122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11589,7 +11859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &525527199
@@ -11702,7 +11972,7 @@ GameObject:
   - component: {fileID: 528860980}
   - component: {fileID: 528860979}
   - component: {fileID: 528860982}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11799,7 +12069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &529176392
@@ -11912,7 +12182,7 @@ GameObject:
   - component: {fileID: 531716232}
   - component: {fileID: 531716231}
   - component: {fileID: 531716234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12009,7 +12279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &536621516
@@ -12122,7 +12392,7 @@ GameObject:
   - component: {fileID: 540752045}
   - component: {fileID: 540752044}
   - component: {fileID: 540752047}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12219,7 +12489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &543754122
@@ -12235,7 +12505,7 @@ GameObject:
   - component: {fileID: 543754125}
   - component: {fileID: 543754124}
   - component: {fileID: 543754127}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (162)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12332,7 +12602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &548220723
@@ -12542,7 +12812,7 @@ GameObject:
   - component: {fileID: 554381801}
   - component: {fileID: 554381800}
   - component: {fileID: 554381803}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12639,7 +12909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &555656998
@@ -12655,7 +12925,7 @@ GameObject:
   - component: {fileID: 555657001}
   - component: {fileID: 555657000}
   - component: {fileID: 555657003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (139)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12752,7 +13022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &557526957
@@ -12768,7 +13038,7 @@ GameObject:
   - component: {fileID: 557526960}
   - component: {fileID: 557526959}
   - component: {fileID: 557526962}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (218)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12865,7 +13135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &558281586
@@ -13075,7 +13345,7 @@ GameObject:
   - component: {fileID: 563674872}
   - component: {fileID: 563674871}
   - component: {fileID: 563674874}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (174)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13172,7 +13442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &567546090
@@ -13188,7 +13458,7 @@ GameObject:
   - component: {fileID: 567546093}
   - component: {fileID: 567546092}
   - component: {fileID: 567546095}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (227)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13285,7 +13555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &582553869
@@ -13444,7 +13714,7 @@ GameObject:
   - component: {fileID: 591799354}
   - component: {fileID: 591799353}
   - component: {fileID: 591799356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (199)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13541,7 +13811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &601350554
@@ -13751,7 +14021,7 @@ GameObject:
   - component: {fileID: 602643696}
   - component: {fileID: 602643695}
   - component: {fileID: 602643698}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13848,7 +14118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &605338538
@@ -13961,7 +14231,7 @@ GameObject:
   - component: {fileID: 605778791}
   - component: {fileID: 605778790}
   - component: {fileID: 605778793}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (143)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14058,7 +14328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &610829623
@@ -14171,7 +14441,7 @@ GameObject:
   - component: {fileID: 614778189}
   - component: {fileID: 614778188}
   - component: {fileID: 614778191}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14268,7 +14538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &615025538
@@ -14632,7 +14902,7 @@ GameObject:
   - component: {fileID: 644417194}
   - component: {fileID: 644417193}
   - component: {fileID: 644417196}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14729,7 +14999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &647887779
@@ -14842,7 +15112,7 @@ GameObject:
   - component: {fileID: 648422839}
   - component: {fileID: 648422838}
   - component: {fileID: 648422841}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (262)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14939,7 +15209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &661178591
@@ -14955,7 +15225,7 @@ GameObject:
   - component: {fileID: 661178594}
   - component: {fileID: 661178593}
   - component: {fileID: 661178596}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15052,7 +15322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &662024210
@@ -15165,7 +15435,7 @@ GameObject:
   - component: {fileID: 662267043}
   - component: {fileID: 662267042}
   - component: {fileID: 662267045}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (148)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15262,7 +15532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &663571064
@@ -15472,7 +15742,7 @@ GameObject:
   - component: {fileID: 668421362}
   - component: {fileID: 668421361}
   - component: {fileID: 668421364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (152)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15569,7 +15839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &672014856
@@ -15585,7 +15855,7 @@ GameObject:
   - component: {fileID: 672014859}
   - component: {fileID: 672014858}
   - component: {fileID: 672014861}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15682,7 +15952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &674447301
@@ -15698,7 +15968,7 @@ GameObject:
   - component: {fileID: 674447304}
   - component: {fileID: 674447303}
   - component: {fileID: 674447306}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15795,7 +16065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &676845359
@@ -15811,7 +16081,7 @@ GameObject:
   - component: {fileID: 676845362}
   - component: {fileID: 676845361}
   - component: {fileID: 676845364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15908,7 +16178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &678579688
@@ -16118,7 +16388,7 @@ GameObject:
   - component: {fileID: 685171926}
   - component: {fileID: 685171925}
   - component: {fileID: 685171928}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16215,7 +16485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &698714718
@@ -16713,7 +16983,7 @@ GameObject:
   - component: {fileID: 716042633}
   - component: {fileID: 716042632}
   - component: {fileID: 716042635}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (187)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16810,7 +17080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &717007322
@@ -16826,7 +17096,7 @@ GameObject:
   - component: {fileID: 717007325}
   - component: {fileID: 717007324}
   - component: {fileID: 717007327}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (248)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16923,7 +17193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &719229575
@@ -17235,7 +17505,7 @@ GameObject:
   - component: {fileID: 741181474}
   - component: {fileID: 741181473}
   - component: {fileID: 741181476}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (186)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17332,7 +17602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &743090412
@@ -17445,7 +17715,7 @@ GameObject:
   - component: {fileID: 743892748}
   - component: {fileID: 743892747}
   - component: {fileID: 743892750}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17542,7 +17812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &744386176
@@ -17558,7 +17828,7 @@ GameObject:
   - component: {fileID: 744386179}
   - component: {fileID: 744386178}
   - component: {fileID: 744386181}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17655,7 +17925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &748283966
@@ -17865,7 +18135,7 @@ GameObject:
   - component: {fileID: 758808772}
   - component: {fileID: 758808771}
   - component: {fileID: 758808774}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17962,9 +18232,125 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
+--- !u!1 &762662984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 762662989}
+  - component: {fileID: 762662988}
+  - component: {fileID: 762662987}
+  - component: {fileID: 762662986}
+  - component: {fileID: 762662985}
+  m_Layer: 5
+  m_Name: Canvas - PlayerUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &762662985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762662984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4122b098db7594cba3af112eb05c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _life: {fileID: 459049207}
+  _money: {fileID: 2069108541}
+--- !u!114 &762662986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762662984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &762662987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762662984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &762662988
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762662984}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &762662989
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762662984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1192916378}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &763903872
 GameObject:
   m_ObjectHideFlags: 0
@@ -17978,7 +18364,7 @@ GameObject:
   - component: {fileID: 763903875}
   - component: {fileID: 763903874}
   - component: {fileID: 763903877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18075,7 +18461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &764596588
@@ -18091,7 +18477,7 @@ GameObject:
   - component: {fileID: 764596591}
   - component: {fileID: 764596590}
   - component: {fileID: 764596593}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18188,7 +18574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &772407969
@@ -18689,7 +19075,7 @@ GameObject:
   - component: {fileID: 787810935}
   - component: {fileID: 787810934}
   - component: {fileID: 787810937}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (181)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18786,7 +19172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &789457148
@@ -18802,7 +19188,7 @@ GameObject:
   - component: {fileID: 789457151}
   - component: {fileID: 789457150}
   - component: {fileID: 789457153}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18899,7 +19285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &790542495
@@ -19012,7 +19398,7 @@ GameObject:
   - component: {fileID: 804632775}
   - component: {fileID: 804632774}
   - component: {fileID: 804632777}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (172)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19109,7 +19495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &810106644
@@ -19548,7 +19934,7 @@ GameObject:
   - component: {fileID: 834098314}
   - component: {fileID: 834098313}
   - component: {fileID: 834098316}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (198)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19645,7 +20031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &843380623
@@ -19952,7 +20338,7 @@ GameObject:
   - component: {fileID: 861174055}
   - component: {fileID: 861174054}
   - component: {fileID: 861174057}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (184)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20049,7 +20435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &864891262
@@ -20065,7 +20451,7 @@ GameObject:
   - component: {fileID: 864891265}
   - component: {fileID: 864891264}
   - component: {fileID: 864891267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (142)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20162,7 +20548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &871340889
@@ -20275,7 +20661,7 @@ GameObject:
   - component: {fileID: 877041229}
   - component: {fileID: 877041228}
   - component: {fileID: 877041231}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20372,7 +20758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &878391390
@@ -20679,7 +21065,7 @@ GameObject:
   - component: {fileID: 884901065}
   - component: {fileID: 884901064}
   - component: {fileID: 884901067}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20776,7 +21162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &898174802
@@ -20792,7 +21178,7 @@ GameObject:
   - component: {fileID: 898174805}
   - component: {fileID: 898174804}
   - component: {fileID: 898174807}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20889,7 +21275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &898687270
@@ -21196,7 +21582,7 @@ GameObject:
   - component: {fileID: 908447105}
   - component: {fileID: 908447104}
   - component: {fileID: 908447107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (131)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21293,7 +21679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &914381216
@@ -21406,7 +21792,7 @@ GameObject:
   - component: {fileID: 915088689}
   - component: {fileID: 915088688}
   - component: {fileID: 915088691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21503,7 +21889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &916144486
@@ -21519,7 +21905,7 @@ GameObject:
   - component: {fileID: 916144489}
   - component: {fileID: 916144488}
   - component: {fileID: 916144491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (261)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21616,7 +22002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &916211178
@@ -21632,7 +22018,7 @@ GameObject:
   - component: {fileID: 916211181}
   - component: {fileID: 916211180}
   - component: {fileID: 916211183}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (175)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21729,7 +22115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &916294816
@@ -21745,7 +22131,7 @@ GameObject:
   - component: {fileID: 916294819}
   - component: {fileID: 916294818}
   - component: {fileID: 916294821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (182)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21842,7 +22228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &917023853
@@ -21858,7 +22244,7 @@ GameObject:
   - component: {fileID: 917023856}
   - component: {fileID: 917023855}
   - component: {fileID: 917023858}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (215)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21955,7 +22341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &920793805
@@ -21971,7 +22357,7 @@ GameObject:
   - component: {fileID: 920793808}
   - component: {fileID: 920793807}
   - component: {fileID: 920793810}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (253)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22068,7 +22454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &923837809
@@ -22569,7 +22955,7 @@ GameObject:
   - component: {fileID: 943953773}
   - component: {fileID: 943953772}
   - component: {fileID: 943953775}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (228)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22666,7 +23052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &950538406
@@ -22779,7 +23165,7 @@ GameObject:
   - component: {fileID: 951063568}
   - component: {fileID: 951063567}
   - component: {fileID: 951063570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22876,7 +23262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &955679830
@@ -22989,7 +23375,7 @@ GameObject:
   - component: {fileID: 956835476}
   - component: {fileID: 956835475}
   - component: {fileID: 956835478}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23086,7 +23472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &957000392
@@ -23102,7 +23488,7 @@ GameObject:
   - component: {fileID: 957000395}
   - component: {fileID: 957000394}
   - component: {fileID: 957000397}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (141)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23199,7 +23585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &963194225
@@ -23278,14 +23664,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.4518994, y: -0.003192464, z: 0.0016263048, w: -0.89206177}
-  m_LocalPosition: {x: -1.2686952, y: 10.660236, z: -2.2597466}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 9, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!1 &965176101
 GameObject:
   m_ObjectHideFlags: 0
@@ -23299,7 +23685,7 @@ GameObject:
   - component: {fileID: 965176104}
   - component: {fileID: 965176103}
   - component: {fileID: 965176106}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23396,7 +23782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &965313350
@@ -23703,7 +24089,7 @@ GameObject:
   - component: {fileID: 978512868}
   - component: {fileID: 978512867}
   - component: {fileID: 978512870}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (210)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23800,7 +24186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &980840213
@@ -23913,7 +24299,7 @@ GameObject:
   - component: {fileID: 987031332}
   - component: {fileID: 987031331}
   - component: {fileID: 987031334}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (149)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24010,7 +24396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &988643286
@@ -24123,7 +24509,7 @@ GameObject:
   - component: {fileID: 989353590}
   - component: {fileID: 989353589}
   - component: {fileID: 989353592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24220,7 +24606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &995759602
@@ -24333,7 +24719,7 @@ GameObject:
   - component: {fileID: 1007418560}
   - component: {fileID: 1007418559}
   - component: {fileID: 1007418562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (224)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24430,7 +24816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1020141761
@@ -24446,7 +24832,7 @@ GameObject:
   - component: {fileID: 1020141764}
   - component: {fileID: 1020141763}
   - component: {fileID: 1020141766}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24543,7 +24929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1030376340
@@ -24559,7 +24945,7 @@ GameObject:
   - component: {fileID: 1030376343}
   - component: {fileID: 1030376342}
   - component: {fileID: 1030376345}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (255)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24656,7 +25042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1031026883
@@ -24756,6 +25142,89 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031026883}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1035391542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1035391544}
+  - component: {fileID: 1035391545}
+  - component: {fileID: 1035391543}
+  m_Layer: 0
+  m_Name: Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1035391543
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035391542}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &1035391544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035391542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1981572966}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1035391545
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035391542}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1037695126
 GameObject:
   m_ObjectHideFlags: 0
@@ -24769,7 +25238,7 @@ GameObject:
   - component: {fileID: 1037695129}
   - component: {fileID: 1037695128}
   - component: {fileID: 1037695131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (223)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24866,7 +25335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1038967048
@@ -25076,7 +25545,7 @@ GameObject:
   - component: {fileID: 1048107994}
   - component: {fileID: 1048107993}
   - component: {fileID: 1048107996}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (180)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25173,7 +25642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1048939226
@@ -25189,7 +25658,7 @@ GameObject:
   - component: {fileID: 1048939229}
   - component: {fileID: 1048939228}
   - component: {fileID: 1048939231}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (217)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25286,7 +25755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1054712876
@@ -25302,7 +25771,7 @@ GameObject:
   - component: {fileID: 1054712879}
   - component: {fileID: 1054712878}
   - component: {fileID: 1054712881}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (251)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25399,7 +25868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1055814972
@@ -26094,7 +26563,7 @@ GameObject:
   - component: {fileID: 1093872306}
   - component: {fileID: 1093872305}
   - component: {fileID: 1093872308}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26191,7 +26660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1099451463
@@ -26304,7 +26773,7 @@ GameObject:
   - component: {fileID: 1104956990}
   - component: {fileID: 1104956989}
   - component: {fileID: 1104956992}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (206)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26401,7 +26870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1108547274
@@ -26514,7 +26983,7 @@ GameObject:
   - component: {fileID: 1110984519}
   - component: {fileID: 1110984518}
   - component: {fileID: 1110984521}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (136)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26611,7 +27080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1112763124
@@ -26821,7 +27290,7 @@ GameObject:
   - component: {fileID: 1119663539}
   - component: {fileID: 1119663538}
   - component: {fileID: 1119663541}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26918,7 +27387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1120388808
@@ -27322,7 +27791,7 @@ GameObject:
   - component: {fileID: 1154931172}
   - component: {fileID: 1154931171}
   - component: {fileID: 1154931174}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (193)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27419,7 +27888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1156632952
@@ -27764,7 +28233,7 @@ GameObject:
   - component: {fileID: 1167285711}
   - component: {fileID: 1167285710}
   - component: {fileID: 1167285713}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27861,7 +28330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1168577016
@@ -28223,6 +28692,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184963577}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1192916377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192916378}
+  - component: {fileID: 1192916380}
+  - component: {fileID: 1192916379}
+  m_Layer: 5
+  m_Name: Panel - PlayerUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1192916378
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192916377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 481066184}
+  - {fileID: 459049205}
+  - {fileID: 1243059751}
+  - {fileID: 2069108543}
+  m_Father: {fileID: 762662989}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 400, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1192916379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192916377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1192916380
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192916377}
+  m_CullTransparentMesh: 1
 --- !u!1 &1193893296
 GameObject:
   m_ObjectHideFlags: 0
@@ -28236,7 +28785,7 @@ GameObject:
   - component: {fileID: 1193893299}
   - component: {fileID: 1193893298}
   - component: {fileID: 1193893301}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28333,7 +28882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1198460418
@@ -28446,7 +28995,7 @@ GameObject:
   - component: {fileID: 1198905348}
   - component: {fileID: 1198905347}
   - component: {fileID: 1198905350}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (245)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28543,7 +29092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1203812573
@@ -28850,7 +29399,7 @@ GameObject:
   - component: {fileID: 1215970953}
   - component: {fileID: 1215970952}
   - component: {fileID: 1215970955}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (231)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28947,7 +29496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1220872313
@@ -29058,8 +29607,9 @@ GameObject:
   - component: {fileID: 1222564935}
   - component: {fileID: 1222564937}
   - component: {fileID: 1222564936}
+  - component: {fileID: 1222564938}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Panel - TowerSelection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29078,6 +29628,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 173518983}
+  - {fileID: 1882785200}
   m_Father: {fileID: 719229579}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29124,6 +29675,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222564934}
   m_CullTransparentMesh: 1
+--- !u!114 &1222564938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222564934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 20
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &1223447309
 GameObject:
   m_ObjectHideFlags: 0
@@ -29331,7 +29908,7 @@ GameObject:
   - component: {fileID: 1225695354}
   - component: {fileID: 1225695353}
   - component: {fileID: 1225695356}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29428,7 +30005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1227559662
@@ -29444,7 +30021,7 @@ GameObject:
   - component: {fileID: 1227559665}
   - component: {fileID: 1227559664}
   - component: {fileID: 1227559667}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29541,9 +30118,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
+--- !u!1 &1243059750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1243059751}
+  - component: {fileID: 1243059753}
+  - component: {fileID: 1243059752}
+  m_Layer: 5
+  m_Name: Text (TMP) - MoneyTitle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1243059751
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243059750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1192916378}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -95}
+  m_SizeDelta: {x: 80, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1243059752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243059750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Money : '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1243059753
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243059750}
+  m_CullTransparentMesh: 1
 --- !u!1 &1245393658
 GameObject:
   m_ObjectHideFlags: 0
@@ -29767,6 +30479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44616dacc6910cf4c8fe49071600b6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 3716febbe91c44b42a6c374187b0fa20, type: 2}
 --- !u!4 &1252798637
 Transform:
   m_ObjectHideFlags: 0
@@ -30412,7 +31125,7 @@ GameObject:
   - component: {fileID: 1274517168}
   - component: {fileID: 1274517167}
   - component: {fileID: 1274517170}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30509,7 +31222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1278444387
@@ -30525,7 +31238,7 @@ GameObject:
   - component: {fileID: 1278444390}
   - component: {fileID: 1278444389}
   - component: {fileID: 1278444392}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30622,7 +31335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1279411158
@@ -30638,7 +31351,7 @@ GameObject:
   - component: {fileID: 1279411161}
   - component: {fileID: 1279411160}
   - component: {fileID: 1279411163}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (179)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30735,7 +31448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1280097702
@@ -30751,7 +31464,7 @@ GameObject:
   - component: {fileID: 1280097705}
   - component: {fileID: 1280097704}
   - component: {fileID: 1280097707}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30848,7 +31561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1290831750
@@ -31252,7 +31965,7 @@ GameObject:
   - component: {fileID: 1329005420}
   - component: {fileID: 1329005419}
   - component: {fileID: 1329005422}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31349,7 +32062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1342715176
@@ -31559,7 +32272,7 @@ GameObject:
   - component: {fileID: 1359246198}
   - component: {fileID: 1359246197}
   - component: {fileID: 1359246200}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (252)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31656,7 +32369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1367095687
@@ -31963,7 +32676,7 @@ GameObject:
   - component: {fileID: 1396108620}
   - component: {fileID: 1396108619}
   - component: {fileID: 1396108622}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32060,7 +32773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1403689870
@@ -32076,7 +32789,7 @@ GameObject:
   - component: {fileID: 1403689873}
   - component: {fileID: 1403689872}
   - component: {fileID: 1403689875}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32173,7 +32886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1403837196
@@ -32189,7 +32902,7 @@ GameObject:
   - component: {fileID: 1403837199}
   - component: {fileID: 1403837198}
   - component: {fileID: 1403837201}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (156)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32286,9 +32999,92 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
+--- !u!1 &1406044921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406044923}
+  - component: {fileID: 1406044924}
+  - component: {fileID: 1406044922}
+  m_Layer: 0
+  m_Name: Turret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1406044922
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406044921}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &1406044923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406044921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1981572966}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1406044924
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406044921}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1416485217
 GameObject:
   m_ObjectHideFlags: 0
@@ -32727,7 +33523,7 @@ GameObject:
   - component: {fileID: 1426443493}
   - component: {fileID: 1426443492}
   - component: {fileID: 1426443495}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32824,7 +33620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1427589344
@@ -32840,7 +33636,7 @@ GameObject:
   - component: {fileID: 1427589347}
   - component: {fileID: 1427589346}
   - component: {fileID: 1427589349}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32937,7 +33733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1428528642
@@ -33050,7 +33846,7 @@ GameObject:
   - component: {fileID: 1430071684}
   - component: {fileID: 1430071683}
   - component: {fileID: 1430071686}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33147,7 +33943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!4 &1432892249 stripped
@@ -33168,7 +33964,7 @@ GameObject:
   - component: {fileID: 1434564830}
   - component: {fileID: 1434564829}
   - component: {fileID: 1434564832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33265,7 +34061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1436494377
@@ -33281,7 +34077,7 @@ GameObject:
   - component: {fileID: 1436494380}
   - component: {fileID: 1436494379}
   - component: {fileID: 1436494382}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33378,7 +34174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1436897809
@@ -33394,7 +34190,7 @@ GameObject:
   - component: {fileID: 1436897812}
   - component: {fileID: 1436897811}
   - component: {fileID: 1436897814}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (129)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33491,7 +34287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1445027036
@@ -33507,7 +34303,7 @@ GameObject:
   - component: {fileID: 1445027039}
   - component: {fileID: 1445027038}
   - component: {fileID: 1445027041}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33604,7 +34400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1448440980
@@ -33620,7 +34416,7 @@ GameObject:
   - component: {fileID: 1448440983}
   - component: {fileID: 1448440982}
   - component: {fileID: 1448440985}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33717,7 +34513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1001 &1458734432
@@ -33989,7 +34785,7 @@ GameObject:
   - component: {fileID: 1481758283}
   - component: {fileID: 1481758282}
   - component: {fileID: 1481758285}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (249)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34086,7 +34882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1493977098
@@ -34490,7 +35286,7 @@ GameObject:
   - component: {fileID: 1513235013}
   - component: {fileID: 1513235012}
   - component: {fileID: 1513235015}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (240)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34587,7 +35383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1518508693
@@ -34700,7 +35496,7 @@ GameObject:
   - component: {fileID: 1518740988}
   - component: {fileID: 1518740987}
   - component: {fileID: 1518740990}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34797,7 +35593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1533310774
@@ -34910,7 +35706,7 @@ GameObject:
   - component: {fileID: 1538990560}
   - component: {fileID: 1538990559}
   - component: {fileID: 1538990562}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (233)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35007,7 +35803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1555952328
@@ -35023,7 +35819,7 @@ GameObject:
   - component: {fileID: 1555952331}
   - component: {fileID: 1555952330}
   - component: {fileID: 1555952333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (205)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35120,7 +35916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1559134904
@@ -35136,7 +35932,7 @@ GameObject:
   - component: {fileID: 1559134907}
   - component: {fileID: 1559134906}
   - component: {fileID: 1559134909}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35233,7 +36029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1560915007
@@ -35540,7 +36336,7 @@ GameObject:
   - component: {fileID: 1570369362}
   - component: {fileID: 1570369361}
   - component: {fileID: 1570369364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (202)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35637,7 +36433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1570551358
@@ -35653,7 +36449,7 @@ GameObject:
   - component: {fileID: 1570551361}
   - component: {fileID: 1570551360}
   - component: {fileID: 1570551363}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (239)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35750,7 +36546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1571954018
@@ -36251,7 +37047,7 @@ GameObject:
   - component: {fileID: 1594148057}
   - component: {fileID: 1594148056}
   - component: {fileID: 1594148059}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36348,7 +37144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1600133272
@@ -36364,7 +37160,7 @@ GameObject:
   - component: {fileID: 1600133275}
   - component: {fileID: 1600133274}
   - component: {fileID: 1600133277}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36461,7 +37257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1600695877
@@ -36768,7 +37564,7 @@ GameObject:
   - component: {fileID: 1605912707}
   - component: {fileID: 1605912706}
   - component: {fileID: 1605912709}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (209)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36865,7 +37661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1606779267
@@ -36881,7 +37677,7 @@ GameObject:
   - component: {fileID: 1606779270}
   - component: {fileID: 1606779269}
   - component: {fileID: 1606779272}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (164)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36978,7 +37774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1613971414
@@ -36994,7 +37790,7 @@ GameObject:
   - component: {fileID: 1613971417}
   - component: {fileID: 1613971416}
   - component: {fileID: 1613971419}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37091,7 +37887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1615929187
@@ -37301,7 +38097,7 @@ GameObject:
   - component: {fileID: 1622210103}
   - component: {fileID: 1622210102}
   - component: {fileID: 1622210105}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (256)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37398,7 +38194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1622652416
@@ -37414,7 +38210,7 @@ GameObject:
   - component: {fileID: 1622652419}
   - component: {fileID: 1622652418}
   - component: {fileID: 1622652421}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (259)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37511,7 +38307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1623327212
@@ -37915,7 +38711,7 @@ GameObject:
   - component: {fileID: 1648306194}
   - component: {fileID: 1648306193}
   - component: {fileID: 1648306196}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38012,7 +38808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1648309884
@@ -38028,7 +38824,7 @@ GameObject:
   - component: {fileID: 1648309887}
   - component: {fileID: 1648309886}
   - component: {fileID: 1648309889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38125,7 +38921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1652997582
@@ -38335,7 +39131,7 @@ GameObject:
   - component: {fileID: 1672005684}
   - component: {fileID: 1672005683}
   - component: {fileID: 1672005686}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (234)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38432,7 +39228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1674063141
@@ -38448,7 +39244,7 @@ GameObject:
   - component: {fileID: 1674063144}
   - component: {fileID: 1674063143}
   - component: {fileID: 1674063146}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (200)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38545,7 +39341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1680796173
@@ -38561,7 +39357,7 @@ GameObject:
   - component: {fileID: 1680796176}
   - component: {fileID: 1680796175}
   - component: {fileID: 1680796178}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (220)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38658,7 +39454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1681212342
@@ -39256,7 +40052,7 @@ GameObject:
   - component: {fileID: 1699328527}
   - component: {fileID: 1699328526}
   - component: {fileID: 1699328529}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39353,7 +40149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1701555681
@@ -39563,7 +40359,7 @@ GameObject:
   - component: {fileID: 1711561738}
   - component: {fileID: 1711561737}
   - component: {fileID: 1711561740}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39660,7 +40456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1719783139
@@ -39870,7 +40666,7 @@ GameObject:
   - component: {fileID: 1722467325}
   - component: {fileID: 1722467324}
   - component: {fileID: 1722467327}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39967,7 +40763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1727278902
@@ -39983,7 +40779,7 @@ GameObject:
   - component: {fileID: 1727278905}
   - component: {fileID: 1727278904}
   - component: {fileID: 1727278907}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40080,7 +40876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1727636001
@@ -40096,7 +40892,7 @@ GameObject:
   - component: {fileID: 1727636004}
   - component: {fileID: 1727636003}
   - component: {fileID: 1727636006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40193,7 +40989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1730978631
@@ -40209,7 +41005,7 @@ GameObject:
   - component: {fileID: 1730978634}
   - component: {fileID: 1730978633}
   - component: {fileID: 1730978636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40306,7 +41102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1731802245
@@ -40516,7 +41312,7 @@ GameObject:
   - component: {fileID: 1744073297}
   - component: {fileID: 1744073296}
   - component: {fileID: 1744073299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40613,7 +41409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1745666828
@@ -41114,7 +41910,7 @@ GameObject:
   - component: {fileID: 1764794517}
   - component: {fileID: 1764794516}
   - component: {fileID: 1764794519}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41211,7 +42007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1765040461
@@ -41518,7 +42314,7 @@ GameObject:
   - component: {fileID: 1782055311}
   - component: {fileID: 1782055310}
   - component: {fileID: 1782055313}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (189)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41615,7 +42411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1788909798
@@ -41631,7 +42427,7 @@ GameObject:
   - component: {fileID: 1788909801}
   - component: {fileID: 1788909800}
   - component: {fileID: 1788909803}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41728,7 +42524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1790186712
@@ -42423,7 +43219,7 @@ GameObject:
   - component: {fileID: 1820114361}
   - component: {fileID: 1820114360}
   - component: {fileID: 1820114363}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (207)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42520,7 +43316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1826029845
@@ -42730,7 +43526,7 @@ GameObject:
   - component: {fileID: 1830635167}
   - component: {fileID: 1830635166}
   - component: {fileID: 1830635169}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (243)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42827,7 +43623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1831623622
@@ -43037,7 +43833,7 @@ GameObject:
   - component: {fileID: 1833527884}
   - component: {fileID: 1833527883}
   - component: {fileID: 1833527886}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (130)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43134,7 +43930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1835776869
@@ -43247,7 +44043,7 @@ GameObject:
   - component: {fileID: 1840680699}
   - component: {fileID: 1840680698}
   - component: {fileID: 1840680701}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (230)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43344,7 +44140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1842973796
@@ -43748,7 +44544,7 @@ GameObject:
   - component: {fileID: 1853975945}
   - component: {fileID: 1853975944}
   - component: {fileID: 1853975947}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (201)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43845,7 +44641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1859942759
@@ -43958,7 +44754,7 @@ GameObject:
   - component: {fileID: 1862397789}
   - component: {fileID: 1862397788}
   - component: {fileID: 1862397791}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (229)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44055,7 +44851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1867635411
@@ -44071,7 +44867,7 @@ GameObject:
   - component: {fileID: 1867635414}
   - component: {fileID: 1867635413}
   - component: {fileID: 1867635416}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (194)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44168,7 +44964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1871258454
@@ -44378,7 +45174,7 @@ GameObject:
   - component: {fileID: 1880420387}
   - component: {fileID: 1880420386}
   - component: {fileID: 1880420389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (232)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44475,7 +45271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1880815358
@@ -44575,6 +45371,139 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880815358}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1882785199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882785200}
+  - component: {fileID: 1882785203}
+  - component: {fileID: 1882785202}
+  - component: {fileID: 1882785201}
+  m_Layer: 5
+  m_Name: Button - RocketLauncher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1882785200
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882785199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1222564935}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 70, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1882785201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882785199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1882785202}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1981572965}
+        m_TargetAssemblyTypeName: TowerHandler, Assembly-CSharp
+        m_MethodName: Handle
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 0d8f2ad9029fcbd468ea36b662d54673, type: 2}
+          m_ObjectArgumentAssemblyTypeName: TowerInfo, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1882785202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882785199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2b28020f0b55f6a4cb17982e10a4afb1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1882785203
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882785199}
+  m_CullTransparentMesh: 1
 --- !u!1 &1883294611
 GameObject:
   m_ObjectHideFlags: 0
@@ -44782,7 +45711,7 @@ GameObject:
   - component: {fileID: 1891497855}
   - component: {fileID: 1891497854}
   - component: {fileID: 1891497857}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44879,7 +45808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1897082306
@@ -44992,7 +45921,7 @@ GameObject:
   - component: {fileID: 1898053129}
   - component: {fileID: 1898053128}
   - component: {fileID: 1898053131}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45089,7 +46018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1903849925
@@ -45105,7 +46034,7 @@ GameObject:
   - component: {fileID: 1903849928}
   - component: {fileID: 1903849927}
   - component: {fileID: 1903849930}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (264)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45202,7 +46131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1912012985
@@ -45315,7 +46244,7 @@ GameObject:
   - component: {fileID: 1917403411}
   - component: {fileID: 1917403410}
   - component: {fileID: 1917403413}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45412,7 +46341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1920156945
@@ -45428,7 +46357,7 @@ GameObject:
   - component: {fileID: 1920156948}
   - component: {fileID: 1920156947}
   - component: {fileID: 1920156950}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (160)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45525,7 +46454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1924538706
@@ -45541,7 +46470,7 @@ GameObject:
   - component: {fileID: 1924538709}
   - component: {fileID: 1924538708}
   - component: {fileID: 1924538711}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (158)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45638,7 +46567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1949220268
@@ -46139,7 +47068,7 @@ GameObject:
   - component: {fileID: 1967950089}
   - component: {fileID: 1967950088}
   - component: {fileID: 1967950091}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46236,7 +47165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1971433610
@@ -46346,6 +47275,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1981572966}
   - component: {fileID: 1981572965}
+  - component: {fileID: 1981572968}
+  - component: {fileID: 1981572967}
   m_Layer: 0
   m_Name: TowerHandler
   m_TagString: Untagged
@@ -46365,6 +47296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a40fc15c88c71cd4f837e2a423cc5a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _meshFilterBase: {fileID: 1035391545}
+  _meshRendererBase: {fileID: 1035391543}
+  _meshFilterTurret: {fileID: 1406044924}
+  _meshRendererTurret: {fileID: 1406044922}
   _nodeLayer:
     serializedVersion: 2
     m_Bits: 1024
@@ -46377,12 +47312,64 @@ Transform:
   m_GameObject: {fileID: 1981572964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 444.5, y: 209.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1035391544}
+  - {fileID: 1406044923}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1981572967
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981572964}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1981572968
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981572964}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1982893833
 GameObject:
   m_ObjectHideFlags: 0
@@ -46396,7 +47383,7 @@ GameObject:
   - component: {fileID: 1982893836}
   - component: {fileID: 1982893835}
   - component: {fileID: 1982893838}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (183)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46493,7 +47480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1984448057
@@ -46606,7 +47593,7 @@ GameObject:
   - component: {fileID: 1985053297}
   - component: {fileID: 1985053296}
   - component: {fileID: 1985053299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46703,7 +47690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1990825511
@@ -46719,7 +47706,7 @@ GameObject:
   - component: {fileID: 1990825514}
   - component: {fileID: 1990825513}
   - component: {fileID: 1990825516}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46816,7 +47803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &1998055678
@@ -47026,7 +48013,7 @@ GameObject:
   - component: {fileID: 1998761693}
   - component: {fileID: 1998761692}
   - component: {fileID: 1998761695}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47123,7 +48110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2001555613
@@ -47430,7 +48417,7 @@ GameObject:
   - component: {fileID: 2007215820}
   - component: {fileID: 2007215819}
   - component: {fileID: 2007215822}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47527,7 +48514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2007741479
@@ -47543,7 +48530,7 @@ GameObject:
   - component: {fileID: 2007741482}
   - component: {fileID: 2007741481}
   - component: {fileID: 2007741484}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (258)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47640,7 +48627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2010101831
@@ -47656,7 +48643,7 @@ GameObject:
   - component: {fileID: 2010101834}
   - component: {fileID: 2010101833}
   - component: {fileID: 2010101836}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (145)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47753,7 +48740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2018286438
@@ -47769,7 +48756,7 @@ GameObject:
   - component: {fileID: 2018286441}
   - component: {fileID: 2018286440}
   - component: {fileID: 2018286443}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (226)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47866,7 +48853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2025378881
@@ -48076,7 +49063,7 @@ GameObject:
   - component: {fileID: 2031326312}
   - component: {fileID: 2031326311}
   - component: {fileID: 2031326314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (247)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48173,7 +49160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2033644495
@@ -48189,7 +49176,7 @@ GameObject:
   - component: {fileID: 2033644498}
   - component: {fileID: 2033644497}
   - component: {fileID: 2033644500}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (242)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48286,7 +49273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2040426661
@@ -48399,7 +49386,7 @@ GameObject:
   - component: {fileID: 2041905172}
   - component: {fileID: 2041905171}
   - component: {fileID: 2041905174}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (191)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48496,7 +49483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2056939403
@@ -48609,7 +49596,7 @@ GameObject:
   - component: {fileID: 2057338209}
   - component: {fileID: 2057338208}
   - component: {fileID: 2057338211}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48706,7 +49693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2058153938
@@ -48722,7 +49709,7 @@ GameObject:
   - component: {fileID: 2058153941}
   - component: {fileID: 2058153940}
   - component: {fileID: 2058153943}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48819,7 +49806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2060130225
@@ -48932,7 +49919,7 @@ GameObject:
   - component: {fileID: 2062101385}
   - component: {fileID: 2062101384}
   - component: {fileID: 2062101387}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49029,7 +50016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2064784325
@@ -49045,7 +50032,7 @@ GameObject:
   - component: {fileID: 2064784328}
   - component: {fileID: 2064784327}
   - component: {fileID: 2064784330}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (171)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49142,9 +50129,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
+--- !u!1 &2069108540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2069108543}
+  - component: {fileID: 2069108542}
+  - component: {fileID: 2069108541}
+  m_Layer: 5
+  m_Name: Text (TMP) - MoneyValue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2069108541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069108540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2069108542
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069108540}
+  m_CullTransparentMesh: 1
+--- !u!224 &2069108543
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069108540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1192916378}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 209.5, y: -95}
+  m_SizeDelta: {x: 80, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2076824422
 GameObject:
   m_ObjectHideFlags: 0
@@ -49158,7 +50280,7 @@ GameObject:
   - component: {fileID: 2076824425}
   - component: {fileID: 2076824424}
   - component: {fileID: 2076824427}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (188)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49255,7 +50377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2089972674
@@ -49659,7 +50781,7 @@ GameObject:
   - component: {fileID: 2096849556}
   - component: {fileID: 2096849555}
   - component: {fileID: 2096849558}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49756,7 +50878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2098133182
@@ -49869,7 +50991,7 @@ GameObject:
   - component: {fileID: 2103255186}
   - component: {fileID: 2103255185}
   - component: {fileID: 2103255188}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49966,7 +51088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2114880438
@@ -49982,7 +51104,7 @@ GameObject:
   - component: {fileID: 2114880441}
   - component: {fileID: 2114880440}
   - component: {fileID: 2114880443}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (128)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50079,7 +51201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2125589191
@@ -50095,7 +51217,7 @@ GameObject:
   - component: {fileID: 2125589194}
   - component: {fileID: 2125589193}
   - component: {fileID: 2125589196}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50192,7 +51314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2126823013
@@ -50208,7 +51330,7 @@ GameObject:
   - component: {fileID: 2126823016}
   - component: {fileID: 2126823015}
   - component: {fileID: 2126823018}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (134)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50305,7 +51427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2133552594
@@ -50515,7 +51637,7 @@ GameObject:
   - component: {fileID: 2136531347}
   - component: {fileID: 2136531346}
   - component: {fileID: 2136531349}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (133)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50612,7 +51734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2139285295
@@ -50628,7 +51750,7 @@ GameObject:
   - component: {fileID: 2139285298}
   - component: {fileID: 2139285297}
   - component: {fileID: 2139285300}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (250)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50725,7 +51847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
 --- !u!1 &2146469782
@@ -50741,7 +51863,7 @@ GameObject:
   - component: {fileID: 2146469785}
   - component: {fileID: 2146469784}
   - component: {fileID: 2146469787}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Node (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50838,6 +51960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c31d18745510604e8c42ba3e765881d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsTowerExist: 0
+  TowerBuilt: {fileID: 0}
   _buildAvailable: {fileID: 2100000, guid: 810f4a27cf40a7f48962ac895e55c00d, type: 2}
   _buildNotAvailable: {fileID: 2100000, guid: bd63126a29366314f849db590e88aed1, type: 2}
