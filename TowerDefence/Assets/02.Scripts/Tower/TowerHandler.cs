@@ -1,14 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
-[RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class TowerHandler : MonoBehaviour
 {
-    public static TowerHandler instance;
+    public static TowerHandler Instance;
 
+    public bool IsActivated;
     [SerializeField] private MeshFilter _meshFilterBase;
     [SerializeField] private MeshRenderer _meshRendererBase;
     [SerializeField] private MeshFilter _meshFilterTurret;
@@ -17,11 +15,9 @@ public class TowerHandler : MonoBehaviour
     private Ray _ray;
     private RaycastHit _hit;
     [SerializeField] private LayerMask _nodeLayer;
-    private bool _isActivated;
-
     public void Handle(TowerInfo info)
     {
-        if (TowerAssets.Instance.TryGetPreviewTower(info, out GameObject previewTowerPrefab))
+        if (TowerAssets.Instance.TryGetPreivewTower(info, out GameObject previewTowerPrefab))
         {
             _info = info;
             _meshFilterBase.mesh = previewTowerPrefab.transform.GetChild(0).GetComponent<MeshFilter>().sharedMesh;
@@ -30,11 +26,11 @@ public class TowerHandler : MonoBehaviour
             _meshFilterTurret.mesh = previewTowerPrefab.transform.GetChild(1).GetComponent<MeshFilter>().sharedMesh;
             _meshRendererTurret.material = previewTowerPrefab.transform.GetChild(1).GetComponent<MeshRenderer>().sharedMaterial;
             _meshFilterTurret.transform.localPosition = previewTowerPrefab.transform.GetChild(1).localPosition;
-            _isActivated = true;
+            IsActivated = true;
         }
         else
         {
-            Debug.LogWarning($"[TowerHandler] : {info.name} 의 미리보기 타워를 가져올 수 없습니다. 이름을 확인하세요");
+            Debug.LogWarning($"[TowerHandler] : {info.name} 의 미리보기 타워를 가져올 수 없습니다. 이름을 확인하세여");
         }
     }
 
@@ -45,12 +41,17 @@ public class TowerHandler : MonoBehaviour
         _meshRendererBase.material = null;
         _meshFilterTurret.mesh = null;
         _meshRendererTurret.material = null;
-        _isActivated = false;
+        IsActivated = false;
+    }
+
+    private void Awake()
+    {
+        Instance = this;
     }
 
     private void Update()
     {
-        if (_isActivated == false)
+        if (IsActivated == false)
             return;
 
         _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -65,7 +66,8 @@ public class TowerHandler : MonoBehaviour
             transform.position = new Vector3(5000.0f, 5000.0f, 5000.0f);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) ||
+            Input.GetMouseButtonDown(1))
             Cancel();
 
         if (Input.GetMouseButtonUp(0))
@@ -82,14 +84,14 @@ public class TowerHandler : MonoBehaviour
 
         if (_hit.collider == null)
         {
-            Debug.Log("건설한 위치가 올바르지 않습니다");
+            Debug.Log("건설할 위치가 올바르지 않습니다");
             return;
         }
 
         if (_hit.collider.GetComponent<Node>().TryBuildTowerHere(_info, out Tower towerBuilt))
         {
             Player.Instance.Money -= _info.BuildPrice;
-            Debug.Log("타워 건설 완료");
+            Debug.Log("타워 건설 완료");         
         }
     }
 }

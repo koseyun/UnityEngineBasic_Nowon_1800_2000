@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using UnityEditorInternal;
 using UnityEngine;
 
 public class TowerAssets : MonoBehaviour
@@ -28,11 +26,11 @@ public class TowerAssets : MonoBehaviour
 
     public bool TryGetNextLevelTower(TowerInfo info, out Tower tower)
     {
-        tower = _towers.Find(t => (t.Info.Type == info.Type) && t.Info.UpgradeLevel == info.UpgradeLevel + 1);
+        tower = _towers.Find(t => (t.Info.Type == info.Type) && (t.Info.UpgradeLevel == info.UpgradeLevel + 1));
         return tower;
     }
 
-    public bool TryGetPreviewTower(TowerInfo info, out GameObject previewTower)
+    public bool TryGetPreivewTower(TowerInfo info, out GameObject previewTower)
     {
         previewTower = _previewTowers.Find(t => t.name == info.name + "Preview");
         return previewTower;

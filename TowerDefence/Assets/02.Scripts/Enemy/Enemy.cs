@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
     public float HpMax = 100;
     public event Action OnHpMin;
     public event Action<float> OnHpChanged;
-
+    public int Price;
     public float Speed;
 
     private Pathfinder _pathfinder;
@@ -58,6 +58,15 @@ public class Enemy : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _pathfinder = GetComponent<Pathfinder>();
+    }
+
+    private void Start()
+    {
+        OnHpMin += () => Player.Instance.Money += Price;
+    }
+
+    private void OnEnable()
+    {
         Hp = HpMax;
     }
 
@@ -100,6 +109,6 @@ public class Enemy : MonoBehaviour
     private void OnReachedToEnd()
     {
         Player.Instance.Life -= 1;
-        Hp = 0;
+        ObjectPool.Instance.Return(gameObject);
     }
 }
