@@ -44,6 +44,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         StartCoroutine(E_Init());
     }
 

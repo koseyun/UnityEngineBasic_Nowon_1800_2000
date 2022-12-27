@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21cd5068fbf57340aae53f749c68f99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _option: 1
+  _option: 0
 --- !u!114 &4281550050172055757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +129,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HpMax: 100
-  Speed: 5
+  Price: 20
+  Speed: 3
 --- !u!64 &-1305392995187979134
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -46,7 +46,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _towers:
   - {fileID: -7384215813001264166, guid: 38e592d112f26bb44b03e3bc8837d029, type: 3}
+  - {fileID: -7384215813001264166, guid: 45237de6a679c3f47a367b29093970bf, type: 3}
+  - {fileID: -7384215813001264166, guid: c090e6d202054194da2564670fb71270, type: 3}
   - {fileID: 3522432933593260543, guid: 272307c453a4f6143a10a591b8d2abc7, type: 3}
+  - {fileID: 3522432933593260543, guid: 9338c689bf8d2834eb689030f053fcd5, type: 3}
+  - {fileID: 3522432933593260543, guid: aff3a43cf64b9d849b0e48eaf486fa23, type: 3}
   _previewTowers:
   - {fileID: 7736655758643449017, guid: 46e71ac40259eae44bc4da8cbbb9f8bf, type: 3}
   - {fileID: 7736655758643449017, guid: d0d6d198735850043bb0e74e6876f481, type: 3}
