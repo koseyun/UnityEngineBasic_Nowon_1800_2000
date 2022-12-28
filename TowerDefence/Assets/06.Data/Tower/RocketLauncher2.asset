@@ -15,5 +15,5 @@ MonoBehaviour:
   Type: 1
   UpgradeLevel: 2
   BuildPrice: 350
-  SellPrice: 400
+  SellPrice: 300
   Icon: {fileID: 21300000, guid: 2b28020f0b55f6a4cb17982e10a4afb1, type: 3}

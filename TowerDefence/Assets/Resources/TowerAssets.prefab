@@ -51,6 +51,10 @@ MonoBehaviour:
   - {fileID: 3522432933593260543, guid: 272307c453a4f6143a10a591b8d2abc7, type: 3}
   - {fileID: 3522432933593260543, guid: 9338c689bf8d2834eb689030f053fcd5, type: 3}
   - {fileID: 3522432933593260543, guid: aff3a43cf64b9d849b0e48eaf486fa23, type: 3}
+  - {fileID: 1918637273908227169, guid: 14ffed073862ceb4d9efba7b09c322cf, type: 3}
+  - {fileID: 1918637273908227169, guid: 5685c22e20981de4caf73f7fbca21450, type: 3}
+  - {fileID: 1918637273908227169, guid: f4f7ca725b57edd4f9272b3844dc9bb5, type: 3}
   _previewTowers:
   - {fileID: 7736655758643449017, guid: 46e71ac40259eae44bc4da8cbbb9f8bf, type: 3}
   - {fileID: 7736655758643449017, guid: d0d6d198735850043bb0e74e6876f481, type: 3}
+  - {fileID: 7736655758643449017, guid: 8eb686c5aa18e884b9595420e75f3677, type: 3}

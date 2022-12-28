@@ -100,7 +100,8 @@ public class EnemySpawner : MonoBehaviour
                             Enemy enemy = ObjectPool.Instance.Spawn(_stageDatas[i].SpawnDatas[j].Prefab.name,
                                                                     Paths.Instance.StartPoints[_stageDatas[i].SpawnDatas[j].StartPointIndex].position
                                                                     + _stageDatas[i].SpawnDatas[j].Prefab.transform.position
-                                                                    + _offset).GetComponent<Enemy>();
+                                                                    + _offset,
+                                                                    Quaternion.identity).GetComponent<Enemy>();
 
                             enemy.OnHpMin += () => ObjectPool.Instance.Return(enemy.gameObject);
                             enemy.SetPath(Paths.Instance.StartPoints[_stageDatas[i].SpawnDatas[j].StartPointIndex],
@@ -140,7 +141,7 @@ public class EnemySpawner : MonoBehaviour
         foreach (Transform startPoint in Paths.Instance.StartPoints)
         {
             skipButtonUI = Instantiate(_skipButtonUIPrefab,
-                                       startPoint.position + Vector3.up,
+                                       startPoint.position + Vector3.up * 1.5f,
                                        _skipButtonUIPrefab.transform.rotation);
             skipButtonUI.AddListener(() =>
             {

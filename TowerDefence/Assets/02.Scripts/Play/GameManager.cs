@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
 
     public void FailLevel()
     {
-
     }
 
     private void Awake()

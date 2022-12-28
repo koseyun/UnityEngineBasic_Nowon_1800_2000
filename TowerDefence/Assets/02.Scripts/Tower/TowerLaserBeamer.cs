@@ -19,8 +19,8 @@ public class TowerLaserBeamer : TowerAttacker
         set
         {
             _damageStep = value;
-            _beam.startWidth = 0.05f * (1 + value);
-            _beam.endWidth = 0.05f * (1 + value);
+            _beam.startWidth = 0.03f * (1 + value * 0.3f);
+            _beam.endWidth = 0.03f * (1 + value * 0.3f);
             _beamHitEffect.transform.localScale = Vector3.one * (1 + value * 0.2f);
         }
     }
@@ -58,15 +58,31 @@ public class TowerLaserBeamer : TowerAttacker
         }
     }
 
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+        Attack();
+    }
+
     protected override void Attack()
     {
-        _targetMem = Target;
+        TargetMem = Target;
 
         if (_targetMem == null)
             return;
 
         _beam.SetPosition(0, _firePoint.position);
-        _beam.SetPosition(1, _firePoint.position);
+        _beam.SetPosition(1, _targetMem.position);
+
+        if (Physics.Raycast(_firePoint.position,
+                            (_targetMem.position - _firePoint.position).normalized,
+                            out RaycastHit hit,
+                            Vector3.Distance(_targetMem.position, _firePoint.position),
+                            TargetLayer))
+        {
+            _beamHitEffect.transform.position = hit.point;
+            _beamHitEffect.transform.LookAt(_firePoint);
+        }
 
         if (_chargeTimer <= 0)
         {
@@ -78,7 +94,7 @@ public class TowerLaserBeamer : TowerAttacker
         }
         else
         {
-            _chargeTimer -= Time.deltaTime;
+            _chargeTimer -= Time.fixedDeltaTime;
         }
 
         if (_damageTimer <= 0)
@@ -91,7 +107,7 @@ public class TowerLaserBeamer : TowerAttacker
         }
         else
         {
-            _damageTimer -= Time.deltaTime;
+            _damageTimer -= Time.fixedDeltaTime;
         }
     }
 }
