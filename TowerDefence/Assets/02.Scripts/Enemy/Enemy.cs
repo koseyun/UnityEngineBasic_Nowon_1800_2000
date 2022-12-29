@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody), typeof(Pathfinder))]
-public class Enemy : MonoBehaviour, IDamageable
+public class Enemy : MonoBehaviour, IDamageable, ISpeed
 {
     private float _hp;
     public float Hp
@@ -31,7 +31,8 @@ public class Enemy : MonoBehaviour, IDamageable
     public event Action OnHpMin;
     public event Action<float> OnHpChanged;
     public int Price;
-    public float Speed;
+    public float Speed { get; set; }
+    public float SpeedOrigin = 1.0f;
 
     private Pathfinder _pathfinder;
     private List<Transform> _path;
@@ -39,6 +40,8 @@ public class Enemy : MonoBehaviour, IDamageable
     private Transform _nextPoint;
     private float _posTolerance = 0.05f;
     private Rigidbody _rb;
+
+    public BuffManager<Enemy> BuffManager { get; private set; }
 
     public void SetPath(Transform start, Transform end)
     {
@@ -62,6 +65,8 @@ public class Enemy : MonoBehaviour, IDamageable
     {
         _rb = GetComponent<Rigidbody>();
         _pathfinder = GetComponent<Pathfinder>();
+        Speed = SpeedOrigin;
+        BuffManager = new BuffManager<Enemy>(this);
     }
 
     private void Start()

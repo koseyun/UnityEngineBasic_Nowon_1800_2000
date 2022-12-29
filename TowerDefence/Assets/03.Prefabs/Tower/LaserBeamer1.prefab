@@ -5144,6 +5144,7 @@ MonoBehaviour:
   _damageChargeTime: 0.5
   _damageGain: 1.5
   _damagePeriod: 0.1
+  _slowGain: 1.5
 --- !u!1001 &2198097991061619824
 PrefabInstance:
   m_ObjectHideFlags: 0
