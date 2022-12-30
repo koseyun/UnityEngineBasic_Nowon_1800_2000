@@ -50,7 +50,7 @@ public class BuffManager<T>
     IEnumerator E_ActiveBuff(IBuff<T> buff, Func<bool> deactiveCondition)
     {
         buff.OnActive(_subject);
-        while (deactiveCondition.Invoke())
+        while (deactiveCondition.Invoke() == false)
         {
             buff.OnDuration(_subject);
             yield return null;
