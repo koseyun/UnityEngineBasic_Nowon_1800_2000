@@ -12,9 +12,9 @@ using UnityEngine.UI;
 public class EnemySpawner : MonoBehaviour
 {
     public bool IsLevelSpawningFinished
-        => (_currentStage >= Data.StageDatas.Count) &&
-           (_stageDatas.Count == 0) &&
-           (TotalEnemiesSpawned - TotalEnemiesDead) == Data.LifeInit - Player.Instance.Life;
+        => (_currentStage >= Data.StageDatas.Count) && // 최근 소환환 스테이지가 마지막 스테이지
+           (_stageDatas.Count == 0) && // 아직 소환이 남은 스테이지가 없다
+           (TotalEnemiesSpawned - TotalEnemiesDead) == Data.LifeInit - Player.Instance.Life; // 소환환적 - 죽은 적 == 깎인 체력
 
     public int TotalEnemiesSpawned;
     private int _totalEnemiesDead;
@@ -30,9 +30,9 @@ public class EnemySpawner : MonoBehaviour
             _totalEnemiesDead = value;
             
             if (IsLevelSpawningFinished)
-            {
                 GameManager.Instance.SucceedLevel();
-            }
+
+            
         }
     }
 
@@ -135,6 +135,14 @@ public class EnemySpawner : MonoBehaviour
                                 TotalEnemiesDead++;
                                 ObjectPool.Instance.Return(enemy.gameObject);
                             };
+                            enemy.OnReachedToEnd += () =>
+                            {
+                                if (IsLevelSpawningFinished)
+                                {
+                                    GameManager.Instance.SucceedLevel();
+                                }
+                            };
+
                             enemy.SetPath(Paths.Instance.StartPoints[_stageDatas[i].SpawnDatas[j].StartPointIndex],
                                           Paths.Instance.EndPoints[_stageDatas[i].SpawnDatas[j].EndPointIndex]);
 

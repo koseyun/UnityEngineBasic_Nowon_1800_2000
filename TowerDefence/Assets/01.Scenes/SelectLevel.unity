@@ -568,7 +568,7 @@ MonoBehaviour:
   Current: 0
   Data: {fileID: 0}
   _successUI: {fileID: 5005667335951807875, guid: 6cec42f7fbcaf6f4a862b97fd7e68780, type: 3}
-  _failureUI: {fileID: 0}
+  _failureUI: {fileID: 5005667335951807875, guid: 1ce8eda8abb5cf547a3339f4bc7c30c5, type: 3}
 --- !u!4 &1697140105
 Transform:
   m_ObjectHideFlags: 0

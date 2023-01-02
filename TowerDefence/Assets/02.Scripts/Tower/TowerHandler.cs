@@ -15,6 +15,7 @@ public class TowerHandler : MonoBehaviour
     private Ray _ray;
     private RaycastHit _hit;
     [SerializeField] private LayerMask _nodeLayer;
+
     public void Handle(TowerInfo info)
     {
         if (TowerAssets.Instance.TryGetPreivewTower(info, out GameObject previewTowerPrefab))
@@ -91,7 +92,7 @@ public class TowerHandler : MonoBehaviour
         if (_hit.collider.GetComponent<Node>().TryBuildTowerHere(_info, out Tower towerBuilt))
         {
             Player.Instance.Money -= _info.BuildPrice;
-            Debug.Log("타워 건설 완료");         
+            Debug.Log("타워 건설 완료");
         }
     }
 }
