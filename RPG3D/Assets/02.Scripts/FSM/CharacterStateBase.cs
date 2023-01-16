@@ -4,9 +4,12 @@ using UnityEngine;
 
 namespace ULB.RPG.FSM
 {
+    /// <summary>
+    /// 애니메이터를 사용하는 캐릭터 FSM 의 상태 베이스
+    /// </summary>
     public abstract class CharacterStateBase : IState
     {
-        protected GameObject owner;
+        protected GameObject owner; //주체
         public int id { get; set; }
         public Func<bool> canExecute { get; set; }
         public List<KeyValuePair<Func<bool>, int>> transitions { get; set; }
@@ -14,9 +17,11 @@ namespace ULB.RPG.FSM
         protected AnimatorWrapper animator;
         protected bool hasExitTime;
 
-        public CharacterStateBase(int id,
-                                  GameObject owner,
-                                  Func<bool> canExecute, List<KeyValuePair<Func<bool>, int>> transitions, bool hasExitTime)
+        public CharacterStateBase(int id, 
+                                  GameObject owner, 
+                                  Func<bool> canExecute,
+                                  List<KeyValuePair<Func<bool>, int>> transitions, 
+                                  bool hasExitTime)
         {
             this.id = id;
             this.owner = owner;
@@ -28,12 +33,10 @@ namespace ULB.RPG.FSM
 
         public virtual void Execute()
         {
-
         }
 
         public virtual void Stop()
         {
-
         }
 
         public virtual int Update()

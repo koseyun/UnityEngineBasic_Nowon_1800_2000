@@ -15,7 +15,7 @@ namespace ULB.RPG.FSM
             IState move = new PlayerStateMove(id: (int)StateType.Move,
                                               owner: owner,
                                               canExecute: () => true,
-                                              transitions: new List<KeyValuePair<System.Func<bool>, int>>()
+                                              transitions: new List<KeyValuePair<Func<bool>, int>>()
                                               {
                                                   new KeyValuePair<Func<bool>, int>
                                                   (

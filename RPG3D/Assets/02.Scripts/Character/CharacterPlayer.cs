@@ -1,7 +1,8 @@
 ﻿using ULB.RPG.FSM;
 
-namespace ULB.RPG.FSM
+namespace ULB.RPG
 {
+
     public class CharacterPlayer : CharacterBase
     {
         protected override CharacterStateMachine CreateMachine()

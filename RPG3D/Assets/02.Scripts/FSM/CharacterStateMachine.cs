@@ -44,7 +44,7 @@ namespace ULB.RPG.FSM
         /// <summary>
         /// 상태 전환 가능한지 체크하고 전환하는 함수
         /// </summary>
-        /// <param name="nextType">전환 하고자하는 다음 상태 타입</param>
+        /// <param name="nextType"> 전환 하고자하는 다음 상태 타입</param>
         /// <returns> 전환 성공 여부 </returns>
         public bool ChangeState(StateType nextType)
         {
