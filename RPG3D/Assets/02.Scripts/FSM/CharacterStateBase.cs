@@ -31,6 +31,12 @@ namespace ULB.RPG.FSM
             this.hasExitTime = hasExitTime;
             animator = owner.GetComponent<AnimatorWrapper>();
             movement = owner.GetComponent<MovementBase>();
+            this.canExecute += () =>
+            {
+                return canExecute.Invoke() &&
+                       animator.isPreviousMachineFinished &&
+                       animator.isPreviousStateFinished;
+            };
         }
 
         public virtual void Execute()

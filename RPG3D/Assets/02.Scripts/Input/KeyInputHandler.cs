@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ULB.RPG.InputSysetems
+namespace ULB.RPG.InputSystems
 {
     /// <summary>
     /// 특정 키입력일떄 어떤 액션을 취할것인지들을 Dictionary 로 등록해놓고

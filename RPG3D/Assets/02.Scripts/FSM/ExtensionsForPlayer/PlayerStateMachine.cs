@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ULB.RPG.InputSysetems;
+using ULB.RPG.InputSystems;
 using UnityEngine;
 
 namespace ULB.RPG.FSM
@@ -32,7 +32,8 @@ namespace ULB.RPG.FSM
 
             IState jump = new PlayerStateJump(id: (int)StateType.Jump,
                                               owner: owner,
-                                              canExecute: () => groundDetector.isDetected,
+                                              canExecute: () => groundDetector.isDetected &&
+                                                                currentType == StateType.Move,
                                               transitions: new List<KeyValuePair<Func<bool>, int>>()
                                               {
                                                   new KeyValuePair<Func<bool>, int>
@@ -65,13 +66,14 @@ namespace ULB.RPG.FSM
 
             IState land = new PlayerStateLand(id: (int)StateType.Land,
                                               owner: owner,
-                                              canExecute: () => groundDetector.isDetected,
+                                              canExecute: () => currentType == StateType.Jump ||
+                                                                currentType == StateType.Fall,
                                               transitions: new List<KeyValuePair<Func<bool>, int>>()
                                               {
                                                   new KeyValuePair<Func<bool>, int>
                                                   (
                                                       () => true,
-                                                      (int)StateType.Fall
+                                                      (int)StateType.Move
                                                   ),
                                               },
                                               hasExitTime: true);
