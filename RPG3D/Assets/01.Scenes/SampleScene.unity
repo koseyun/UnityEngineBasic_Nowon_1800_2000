@@ -1097,6 +1097,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a34e6eb0a805f4590346175777bb6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _monitorOnMachineHash: 0
+  _monitorOnMachineHashMem: 0
+  _monitorOffMachineHash: 0
+  _monitorOnStateHash: 0
+  _monitorOnStateHashMem: 0
+  _monitorOffStateHash: 0
   _animator: {fileID: 1534920295}
 --- !u!136 &1534920300
 CapsuleCollider:
