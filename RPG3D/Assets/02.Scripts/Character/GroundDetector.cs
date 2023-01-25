@@ -34,17 +34,16 @@ public class GroundDetector : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position + _offset, _range);
 
-        /*if (CastGround(0.5f, out RaycastHit hit))
+        if (CastGround(0.5f, out RaycastHit hit))
         {
             Gizmos.color = Color.cyan;
-            for (int i = 0; i < dirPattern.GetLength(1); i++)
-            {
-                Gizmos.DrawLine(transform.position + new Vector3(dirPattern[0, i], dirPattern[1, i]) * _range / 2.0f,
-                                hit.point + new Vector3(dirPattern[0, i], dirPattern[1, i]) * _range / 2.0f);
-            }
+            Gizmos.DrawLine(transform.position + Vector3.forward * _range, hit.point + Vector3.forward * _range);
+            Gizmos.DrawLine(transform.position + Vector3.back * _range, hit.point + Vector3.back * _range);
+            Gizmos.DrawLine(transform.position + Vector3.left * _range, hit.point + Vector3.left * _range);
+            Gizmos.DrawLine(transform.position + Vector3.right * _range, hit.point + Vector3.right * _range);
 
             Gizmos.DrawWireSphere(transform.position, _range);
             Gizmos.DrawWireSphere(hit.point, _range);
-        }*/
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace ULB.RPG.FSM
         public override void Execute()
         {
             base.Execute();
-            movement.mode = MovementBase.Mode.RootMotion;
+            movement.mode = MovementBase.Mode.Manual;
             animator.SetBool("doMove", true);
         }
 

@@ -32,7 +32,7 @@ namespace ULB.RPG.InputSystems
             {
                 _mouse0Tigger = value;
                 if (value)
-                    OnMouse0TriggerActivated();
+                    OnMouse0TriggerActivated?.Invoke();
             }
         }
         private bool _mouse0Tigger;
