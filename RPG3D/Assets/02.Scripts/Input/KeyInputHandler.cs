@@ -12,7 +12,7 @@ namespace ULB.RPG.InputSystems
     public class KeyInputHandler : MonoBehaviour
     {
         public static KeyInputHandler instance;
-    
+        
         private Dictionary<KeyCode, Action> _keyDownActions = new Dictionary<KeyCode, Action>();
         private Dictionary<KeyCode, Action> _keyPressActions = new Dictionary<KeyCode, Action>();
         private Dictionary<KeyCode, Action> _keyUpActions = new Dictionary<KeyCode, Action>();
