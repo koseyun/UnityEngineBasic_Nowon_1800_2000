@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using ULB.RPG.FSM;
-using UnityEngine;
 
 namespace ULB.RPG
 {
@@ -9,7 +6,7 @@ namespace ULB.RPG
     {
         protected override CharacterStateMachine CreateMachine()
         {
-            throw new System.NotImplementedException();
+            return new EnemyStateMachine(gameObject);
         }
     }
 }
