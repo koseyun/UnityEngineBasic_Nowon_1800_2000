@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 
 namespace ULB.RPG.AISystems
 {
-    internal class Root : Behaviour, IChild
+    public class Root : Behaviour, IChild
     {
         public Behaviour child { get; set; }
         private Behaviour _running;
