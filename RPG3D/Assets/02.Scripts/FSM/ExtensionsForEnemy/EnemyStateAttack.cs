@@ -17,8 +17,10 @@ namespace ULB.RPG.FSM
         }
         private Step _step;
 
+        private EnemyStateMachine _machine;
         public EnemyStateAttack(int id, GameObject owner, Func<bool> canExecute, List<KeyValuePair<Func<bool>, int>> transitions, bool hasExitTime) : base(id, owner, canExecute, transitions, hasExitTime)
         {
+            _machine = (EnemyStateMachine)owner.GetComponent<CharacterBase>().machine;
         }
 
         public override void Execute()
@@ -43,12 +45,23 @@ namespace ULB.RPG.FSM
                     break;
                 case Step.Prepare:
                     {
-                        
+                        _machine.comboTrigger = false;
+                        _step = Step.Action;
                     }
                     break;
                 case Step.Action:
                     {
+                        if (_machine.comboTrigger &&
+                            animator.GetBool("finishCombo") == false)
+                        {
+                            animator.SetBool("doCombo", true);
+                            _step = Step.Combo;
+                        }
 
+                        if (animator.GetCurrentNormalizedTime(0) >= 0.98f)
+                        {
+                            return base.Update();
+                        }
                     }
                     break;
                 case Step.Combo:
