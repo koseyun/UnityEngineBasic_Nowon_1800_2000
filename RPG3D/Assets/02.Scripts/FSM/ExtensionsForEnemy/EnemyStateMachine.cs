@@ -47,7 +47,47 @@ namespace ULB.RPG.FSM
                                            hasExitTime: false);
             states.Add(StateType.Move, move);
 
+            IState attack = new EnemyStateAttack(id: (int)StateType.Attack,
+                                              owner: owner,
+                                              canExecute: () => currentType == StateType.Move,
+                                              transitions: new List<KeyValuePair<Func<bool>, int>>()
+                                              {
+                                                  new KeyValuePair<Func<bool>, int>
+                                                  (
+                                                      () => true,
+                                                      (int)StateType.Move
+                                                  ),
+                                              },
+                                              hasExitTime: false);
+            states.Add(StateType.Attack, attack);
 
+            IState hurt = new EnemyStateHurt(id: (int)StateType.Hurt,
+                                              owner: owner,
+                                              canExecute: () => true,
+                                              transitions: new List<KeyValuePair<Func<bool>, int>>()
+                                              {
+                                                  new KeyValuePair<Func<bool>, int>
+                                                  (
+                                                      () => true,
+                                                      (int)StateType.Move
+                                                  ),
+                                              },
+                                              hasExitTime: true);
+            states.Add(StateType.Hurt, hurt);
+
+            IState die = new EnemyStateDie(id: (int)StateType.Die,
+                                              owner: owner,
+                                              canExecute: () => true,
+                                              transitions: new List<KeyValuePair<Func<bool>, int>>()
+                                              {
+                                                  new KeyValuePair<Func<bool>, int>
+                                                  (
+                                                      () => false,
+                                                      (int)StateType.Move
+                                                  ),
+                                              },
+                                              hasExitTime: true);
+            states.Add(StateType.Die, die);
         }
     }
 }
