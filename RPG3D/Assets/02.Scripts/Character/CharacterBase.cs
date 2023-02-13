@@ -26,5 +26,9 @@ namespace ULB.RPG
         {
             UpdateMachine();
         }
+
+        public void FootR() { }
+        public void FootL() { }
+        public void Hit() { }
     }
 }

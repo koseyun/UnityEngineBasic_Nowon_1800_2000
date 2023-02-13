@@ -1,6 +1,10 @@
+using System.Collections;
 using System;
 using UnityEngine;
 
+/// <summary>
+/// 애니메이터의 sub-state machine 용 감시자
+/// </summary>
 public class AnimatorMachineMonitor : StateMachineBehaviour
 {
     public event Action<int> OnEnter;

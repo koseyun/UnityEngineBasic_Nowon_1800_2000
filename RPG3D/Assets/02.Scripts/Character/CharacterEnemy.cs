@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using ULB.RPG.AISystems;
 using ULB.RPG.FSM;
 using UnityEngine;
@@ -11,6 +12,24 @@ namespace ULB.RPG
         private BehaviourTree _aiTree;
         [SerializeField] private LayerMask _targetMask;
         [SerializeField] private float _attackRange = 1.0f;
+
+        public bool comboTrigger
+        {
+            get
+            {
+                if (_comboTrigger)
+                {
+                    _comboTrigger = false;
+                    return true;
+                }
+                return false;
+            }
+            set
+            {
+                _comboTrigger = value;
+            }
+        }
+        private bool _comboTrigger;
 
         protected override void Awake()
         {
@@ -26,7 +45,8 @@ namespace ULB.RPG
 
         protected override CharacterStateMachine CreateMachine()
         {
-            return new EnemyStateMachine(this.gameObject);
+            machine = new EnemyStateMachine(this.gameObject);
+            return machine;
         }
 
         private void BuildAITree()
@@ -35,6 +55,13 @@ namespace ULB.RPG
 
             _aiTree = new BehaviourTree();
             _aiTree.StartBuild()
+                .Sequence()
+                    .Condition(() =>
+                    {
+                        return machine.currentType == CharacterStateMachine.StateType.Hurt ||
+                               machine.currentType == CharacterStateMachine.StateType.Die;
+                    })
+                        .Execution(() => Result.Failure)
                 .Selector()
                     .InSight(this, 10.0f, 90.0f, 1.0f, 0.75f, _targetMask)
                         .Selector()
@@ -51,31 +78,66 @@ namespace ULB.RPG
                                         return Result.Failure;
                                     }
                                 })
-                            .Execution(() =>
-                            {
-                                if (machine.ChangeState(CharacterStateMachine.StateType.Move) ||
-                                    machine.currentType == CharacterStateMachine.StateType.Move)
+                                .Execution(() =>
                                 {
-                                    if (Vector3.Distance(transform.position, target.position) > 7.0f)
+                                    if (machine.ChangeState(CharacterStateMachine.StateType.Move) ||
+                                        machine.currentType == CharacterStateMachine.StateType.Move)
                                     {
-                                        Vector3 interpolated = Vector3.Lerp(new Vector3(movement.h, 0.0f, movement.v),
-                                                                            new Vector3(Random.Range(0.1f, 0.5f), 0.0f, Random.Range(0.1f, 0.9f)),
-                                                                            Random.Range(0.0f, 0.5f));
-                                        movement.SetMove(interpolated.x, interpolated.z, Random.Range(0.5f, 1.0f));
+                                        if (Vector3.Distance(transform.position, target.position) > 7.0f)
+                                        {
+                                            Vector3 interpolated = Vector3.Lerp(new Vector3(movement.h, 0.0f, movement.v),
+                                                                                new Vector3(Random.Range(0.1f, 0.5f), 0.0f, Random.Range(0.1f, 0.9f)),
+                                                                                Random.Range(0.0f, 0.5f));
+                                            movement.SetMove(interpolated.x, interpolated.z, Random.Range(0.5f, 1.0f));
+                                        }
+                                        else if (Vector3.Distance(transform.position, target.position) > 1.0f)
+                                        {
+                                            movement.SetMove(1.0f, 0.0f, 1.0f);
+                                        }
+                                        else
+                                        {
+                                            movement.SetMove(0.1f, 0.1f, 0.0f);
+                                        }
+
+                                        transform.LookAt(target);
+                                        return Result.Success;
                                     }
                                     else
                                     {
-                                        movement.SetMove(1.0f, 0.0f, 1.0f);
+                                        return Result.Failure;
                                     }
-
-                                    transform.LookAt(target);
-                                    return Result.Success;
-                                }
-                                else
+                                })
+                                .ExitCurrentComposite()
+                        .RandomSelector()
+                            .RandomKeep(1.0f, 3.0f)
+                                .Execution(() =>
                                 {
-                                    return Result.Failure;
-                                }
-                            });
+                                    if (machine.ChangeState(CharacterStateMachine.StateType.Move) ||
+                                        machine.currentType == CharacterStateMachine.StateType.Move)
+                                    {
+                                        movement.SetMove(0.0f, 0.0f, 0.0f);
+                                        return Result.Success;
+                                    }
+                                    else
+                                    {
+                                        return Result.Failure;
+                                    }
+                                })
+                            .RandomSleep(1.0f, 3.0f)
+                                .Execution(() =>
+                                {
+                                    if (machine.ChangeState(CharacterStateMachine.StateType.Move) ||
+                                        machine.currentType == CharacterStateMachine.StateType.Move)
+                                    {
+                                        transform.Rotate(Vector3.up * Random.Range(0.0f, 360.0f));
+                                        movement.SetMove(Random.Range(0.5f, 1.0f), Random.Range(0.5f, 1.0f), 1.0f);
+                                        return Result.Success;
+                                    }
+                                    else
+                                    {
+                                        return Result.Failure;
+                                    }
+                                });
         }
     }
 }

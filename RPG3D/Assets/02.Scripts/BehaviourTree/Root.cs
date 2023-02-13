@@ -1,14 +1,15 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using TreeEditor;
-using UnityEngine.Rendering;
 
 namespace ULB.RPG.AISystems
 {
     public class Root : Behaviour, IChild
     {
         public Behaviour child { get; set; }
-        private Behaviour _running;
+        public Behaviour running;
 
         public Result Invoke()
         {
@@ -16,23 +17,23 @@ namespace ULB.RPG.AISystems
             Behaviour leaf;
 
             // running 을 반환했던 leaf behavior 가 있으면 그걸 실행.
-            if (_running == null)
+            if (running == null)
             {
                 result = child.Invoke(out leaf);
             }
             else
             {
-                result = _running.Invoke(out leaf);
+                result = running.Invoke(out leaf);
             }
 
             // running 이 반환되면 leaf behavior 저장.
             if (result == Result.Running)
             {
-                _running = leaf;
+                running = leaf;
             }
             else
             {
-                _running = null;
+                running = null;
             }
 
             return result;

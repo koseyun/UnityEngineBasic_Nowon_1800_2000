@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+
 namespace ULB.RPG.AISystems
 {
     public class RandomSelector : Composite
