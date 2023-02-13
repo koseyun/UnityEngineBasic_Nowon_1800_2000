@@ -67,7 +67,7 @@ namespace ULB.RPG.AISystems
             AttachAsChild(_current, sequence);
             _current = sequence;
             return this;
-        }        
+        }
         public BehaviourTree RandomSequence()
         {
             Composite sequence = new RandomSequence();
@@ -132,7 +132,7 @@ namespace ULB.RPG.AISystems
             _current = repeat;
             return this;
         }
-        
+
         public BehaviourTree InSight(CharacterBase owner, float radius, float angle, float angleDelta, float height, LayerMask targetMask)
         {
             Behaviour inSight = new InSight(owner, radius, angle, angleDelta, height, targetMask);
@@ -153,7 +153,6 @@ namespace ULB.RPG.AISystems
 
             return this;
         }
-
         #endregion
     }
 }

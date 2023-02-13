@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GroundDetector : MonoBehaviour
@@ -24,11 +22,12 @@ public class GroundDetector : MonoBehaviour
         isDetected = cols.Length > 0;
     }
 
-    int[,] dirPattern = new int[,]
+    /*int[,] dirPattern = new int[,]
     {
         { 1, 0, -1, 0 },
         { 0, 1, 0, -1 }
-    };
+    };*/
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;

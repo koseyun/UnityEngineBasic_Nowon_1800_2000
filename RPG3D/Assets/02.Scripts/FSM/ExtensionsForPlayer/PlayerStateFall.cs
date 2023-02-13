@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace ULB.RPG.FSM
@@ -22,6 +21,11 @@ namespace ULB.RPG.FSM
         {
             base.Stop();
             animator.SetBool("doFall", false);
+        }
+
+        public override int Update()
+        {
+            return base.Update();
         }
     }
 }

@@ -31,6 +31,10 @@ namespace ULB.RPG.FSM
             this.hasExitTime = hasExitTime;
             animator = owner.GetComponent<AnimatorWrapper>();
             movement = owner.GetComponent<MovementBase>();
+
+            // * 주의 
+            // 반환값이 있는 대리자에 여러 함수를 등록할 경우 
+            // 마지막에 등록된 함수의 반환값을 최종적으로 반환함.
             this.canExecute += () =>
             {
                 return canExecute.Invoke() &&

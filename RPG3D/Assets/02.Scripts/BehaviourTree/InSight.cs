@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace ULB.RPG.AISystems
@@ -28,6 +27,8 @@ namespace ULB.RPG.AISystems
         {
             leaf = this;
 
+            // Raycast 로 타겟 감지
+            //----------------------------------------------------------------------------
             Ray ray;
             RaycastHit hit;
 
@@ -68,15 +69,32 @@ namespace ULB.RPG.AISystems
                 }
             }
 
-            var cols = Physics.OverlapSphere(_owner.transform.position, _radius, _targetMask)
-                .ToList()
-                .Where(x =>
+            // Overlap 으로 타겟 감지
+            //----------------------------------------------------------------------------
+
+            /*Collider[] overlaps = Physics.OverlapSphere(_owner.transform.position, _radius, _targetMask);
+            
+            if (overlaps.Length > 0)
+            {
+                Collider closest = Physics.OverlapSphere(_owner.transform.position, _radius, _targetMask)
+               .ToList()
+               .Where(target =>
+               {
+                   float angle = Mathf.Acos(Mathf.Abs(target.transform.position.z - _owner.transform.position.z)
+                                            / Mathf.Sqrt(Mathf.Pow(target.transform.position.z - _owner.transform.position.z, 2) +
+                                              Mathf.Pow(target.transform.position.x - _owner.transform.position.x, 2)));
+                   return angle > 0.0f && angle <= _angle / 2.0f;
+               })
+               .OrderBy(target => Vector3.Distance(target.transform.position, _owner.transform.position))
+               .First();
+            
+                if (closest != null)
                 {
-                    Mathf.Acos(Mathf.Abs(x.transform.position.z - _owner.transform.position.z)
-                                / Mathf.Sqrt(Mathf.Pow(x.transform.position.z - _owner.transform.position.z, 2) +
-                                             Mathf.Pow(x.transform.position.x - _owner.transform.position.x, 2)))
-                    <= _angle / 2.0f;
-                });
+                    Debug.Log("[InSight] : Target detected");
+                    _owner.target = closest.transform;
+                    return Result.Success;
+                }
+            }*/
 
             _owner.target = null;
             return Result.Failure;
