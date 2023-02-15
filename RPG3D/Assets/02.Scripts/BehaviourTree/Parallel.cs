@@ -1,9 +1,10 @@
-﻿namespace ULB.RPG.AISystems
+﻿
+namespace ULB.RPG.AISystems
 {
     public class Parallel : Composite
     {
         private int _successPolicy;
-        private int _failurePolicy;
+        private int _failurePolicy; 
 
         public Parallel(int successPolicy, int failurePolicy)
         {

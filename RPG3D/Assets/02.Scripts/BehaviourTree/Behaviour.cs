@@ -1,3 +1,4 @@
+
 namespace ULB.RPG.AISystems
 {
     public enum Result
@@ -11,4 +12,5 @@ namespace ULB.RPG.AISystems
     {
         public abstract Result Invoke(out Behaviour leaf);
     }
+
 }

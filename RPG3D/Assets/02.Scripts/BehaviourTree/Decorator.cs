@@ -1,8 +1,10 @@
-﻿namespace ULB.RPG.AISystems
+﻿
+namespace ULB.RPG.AISystems
 {
     public abstract class Decorator : Behaviour, IChild
     {
         public Behaviour child { get; set; }
+
 
         public override Result Invoke(out Behaviour leaf)
         {

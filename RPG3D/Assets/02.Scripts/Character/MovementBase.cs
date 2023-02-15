@@ -9,7 +9,7 @@ namespace ULB.RPG
         {
             None,
             Manual,
-            RootMotion
+            RootMotion,
         }
         public Mode mode
         {
@@ -21,7 +21,7 @@ namespace ULB.RPG
             {
                 if (_mode == value)
                     return;
-    
+
                 inertia = rb.velocity;
                 _mode = value;
             }
@@ -36,23 +36,29 @@ namespace ULB.RPG
         public abstract float gain { get; }
         [SerializeField] protected Rigidbody rb;
 
+
         public virtual void SetMove(float v, float h, float gain) { }
+        public virtual void ResetMove()
+        {
+            inertia = Vector3.zero;
+        }
+
 
         private void Awake()
-        { 
+        {
             _drag = rb.drag;
             _mode = Mode.RootMotion;
         }
-    
+
         private void Update()
         {
             if (_mode == Mode.RootMotion)
             {
                 _animator.SetFloat("h", h * gain);
                 _animator.SetFloat("v", v * gain);
-            }        
+            }
         }
-    
+
         private void FixedUpdate()
         {
             if (_mode == Mode.Manual)

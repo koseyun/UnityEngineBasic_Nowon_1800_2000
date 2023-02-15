@@ -44,8 +44,8 @@ namespace ULB.RPG.FSM
                                                   ),
                                                   new KeyValuePair<Func<bool>, int>
                                                   (
-                                                      () => rb.velocity.y <= 0, //바꿀 조건
-                                                      (int)StateType.Fall //바꿀 상태
+                                                      () => rb.velocity.y <= 0,
+                                                      (int)StateType.Fall
                                                   ),
                                               },
                                               hasExitTime: false);
@@ -53,7 +53,7 @@ namespace ULB.RPG.FSM
 
             IState fall = new PlayerStateFall(id: (int)StateType.Fall,
                                               owner: owner,
-                                              canExecute: () => groundDetector.isDetected == false,
+                                              canExecute: () => true,
                                               transitions: new List<KeyValuePair<Func<bool>, int>>()
                                               {
                                                   new KeyValuePair<Func<bool>, int>
@@ -126,8 +126,8 @@ namespace ULB.RPG.FSM
             KeyInputHandler.instance.RegisterKeyPressAction(KeyCode.Space, () => ChangeState(StateType.Jump));
             KeyInputHandler.instance.OnMouse0TriggerActivated += () => ChangeState(StateType.Attack);
 
-            KeyInputHandler.instance.RegisterKeyPressAction(KeyCode.H, () => ChangeState(StateType.Hurt));
-            KeyInputHandler.instance.RegisterKeyPressAction(KeyCode.K, () => ChangeState(StateType.Die));
+            KeyInputHandler.instance.RegisterKeyDownAction(KeyCode.H, () => ChangeState(StateType.Hurt));
+            KeyInputHandler.instance.RegisterKeyDownAction(KeyCode.K, () => ChangeState(StateType.Die));
         }
     }
 }

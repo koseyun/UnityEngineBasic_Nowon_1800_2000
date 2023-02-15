@@ -10,6 +10,7 @@ namespace ULB.RPG.AISystems
     {
         private Func<Result> _execute;
 
+
         public Execution(Func<Result> execute)
         {
             _execute = execute;

@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace ULB.RPG.FSM
 {
+
     public class PlayerStateJump : CharacterStateBase
     {
         private Rigidbody _rb;
@@ -33,10 +34,6 @@ namespace ULB.RPG.FSM
 
         public override int Update()
         {
-            /*if (Time.time - _startTimeMark > 2.0f)
-                return base.Update();
-            else
-                return id;*/
             return (Time.time - _startTimeMark > 0.01f) ? base.Update() : id;
         }
     }

@@ -18,5 +18,6 @@ namespace ULB.RPG
             _h = h;
             _gain = gain;
         }
+
     }
 }

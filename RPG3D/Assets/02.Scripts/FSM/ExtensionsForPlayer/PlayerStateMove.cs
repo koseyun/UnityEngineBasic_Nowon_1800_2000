@@ -23,4 +23,5 @@ namespace ULB.RPG.FSM
             animator.SetBool("doMove", false);
         }
     }
+
 }

@@ -10,8 +10,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float _wheelSpeed = 500.0f; // 마우스 스크롤 줌 속도
     [SerializeField] private float _xMoveSpeed = 500.0f; // 마우스 x축 이동 속도
     [SerializeField] private float _yMoveSpeed = 250.0f; // 마우스 y축 이동 속도
-    [SerializeField] private float _yLimitMin = 5.0f; // 마우스 y축 제한
-    [SerializeField] private float _yLimitMax = 80.0f; // 마우스 y축 제한
+    [SerializeField] private float _yLimitMin = 5.0f; // 마우스 y 축 제한
+    [SerializeField] private float _yLimitMax = 80.0f; // 마우스 y 축 제한
     private float _y, _x, _distance; // 마우스 y축, x축 값, 현재 거리
 
     private void Awake()
@@ -19,7 +19,7 @@ public class CameraController : MonoBehaviour
         _distance = Vector3.Distance(transform.position, _target.position);
         _y = transform.eulerAngles.x;
         _x = transform.eulerAngles.y;
-        if (Test.instance != null)
+        if (Test.instance == null)
         {
             Debug.LogError("Failed to create singleton");
         }
@@ -27,7 +27,7 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        CursorController.instance.DeactiveCusor();
+        CursorController.instance.DeactiveCursor();
     }
 
     private void Update()

@@ -15,15 +15,11 @@ public abstract class SingletonMonoBase<T> : MonoBehaviour
                 {
                     _instance = new GameObject(typeof(T).Name).AddComponent<T>();
                 }
-            }            
+            }
+            
             return _instance;
         }
     }
     public static T _instance;
     private static volatile object _lock = new object();
 }
-
-/*public class Something : SingletonMonoBase<Something>
-{
-
-}*/

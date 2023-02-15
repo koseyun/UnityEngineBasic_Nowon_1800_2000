@@ -6,13 +6,13 @@ using UnityEngine.EventSystems;
 namespace ULB.RPG.InputSystems
 {
     /// <summary>
-    /// 특정 키입력일떄 어떤 액션을 취할것인지들을 Dictionary 로 등록해놓고
+    /// 특정 키입력일때 어떤 액션을 취할것인지들을 Dictionary 로 등록해놓고 
     /// 모든 액션을 매 프레임 순회하면서 호출해줌.
     /// </summary>
     public class KeyInputHandler : MonoBehaviour
     {
         public static KeyInputHandler instance;
-        
+
         private Dictionary<KeyCode, Action> _keyDownActions = new Dictionary<KeyCode, Action>();
         private Dictionary<KeyCode, Action> _keyPressActions = new Dictionary<KeyCode, Action>();
         private Dictionary<KeyCode, Action> _keyUpActions = new Dictionary<KeyCode, Action>();
@@ -21,23 +21,24 @@ namespace ULB.RPG.InputSystems
         {
             get
             {
-                if (_mouse0Tigger)
+                if (_mouse0Trigger)
                 {
-                    _mouse0Tigger = false;
+                    _mouse0Trigger = false;
                     return true;
                 }
                 return false;
             }
             set
             {
-                _mouse0Tigger = value;
+                _mouse0Trigger = value;
                 if (value)
                     OnMouse0TriggerActivated?.Invoke();
             }
         }
-        private bool _mouse0Tigger;
+        private bool _mouse0Trigger;
         public event Action OnMouse0TriggerActivated;
-    
+
+
         public void RegisterKeyDownAction(KeyCode key, Action action)
         {
             if (_keyDownActions.ContainsKey(key))
@@ -59,6 +60,7 @@ namespace ULB.RPG.InputSystems
             else
                 _keyUpActions.Add(key, action);
         }
+
 
         private void Awake()
         {

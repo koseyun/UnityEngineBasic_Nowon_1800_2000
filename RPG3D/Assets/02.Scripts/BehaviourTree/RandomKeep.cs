@@ -9,14 +9,14 @@ namespace ULB.RPG.AISystems
         private float _maxTime;
         private float _timeMark;
         private float _keepTime;
-
         public Behaviour child { get; set; }
 
-        public RandomKeep(float minTIme, float maxTime)
+        public RandomKeep(float minTime, float maxTime)
         {
-            _minTime = minTIme;
+            _minTime = minTime;
             _maxTime = maxTime;
         }
+
 
         public override Result Invoke(out Behaviour leaf)
         {

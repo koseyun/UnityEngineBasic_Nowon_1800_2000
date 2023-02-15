@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace ULB.RPG.FSM
 {
+
     public class PlayerStateLand : CharacterStateBase
     {
         public PlayerStateLand(int id, GameObject owner, Func<bool> canExecute, List<KeyValuePair<Func<bool>, int>> transitions, bool hasExitTime) : base(id, owner, canExecute, transitions, hasExitTime)

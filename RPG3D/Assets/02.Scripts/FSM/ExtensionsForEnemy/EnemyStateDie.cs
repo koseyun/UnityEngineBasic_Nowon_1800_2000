@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ULB.RPG.FSM
+namespace ULB.RPG.FSM 
 {
     public class EnemyStateDie : CharacterStateBase
     {

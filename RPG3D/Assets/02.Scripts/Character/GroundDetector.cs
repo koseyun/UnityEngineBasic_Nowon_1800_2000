@@ -7,9 +7,9 @@ public class GroundDetector : MonoBehaviour
     [SerializeField] private float _range;
     [SerializeField] private LayerMask _groundLayer;
 
+
     public bool CastGround(float distance, out RaycastHit hit)
     {
-        Debug.Log(Physics.SphereCast(transform.position, _range, Vector3.down, out hit, distance, _groundLayer));
         return Physics.SphereCast(transform.position, _range, Vector3.down, out hit, distance, _groundLayer);
     }
 
@@ -22,17 +22,12 @@ public class GroundDetector : MonoBehaviour
         isDetected = cols.Length > 0;
     }
 
-    /*int[,] dirPattern = new int[,]
-    {
-        { 1, 0, -1, 0 },
-        { 0, 1, 0, -1 }
-    };*/
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position + _offset, _range);
-
+        
         if (CastGround(0.5f, out RaycastHit hit))
         {
             Gizmos.color = Color.cyan;
@@ -43,6 +38,6 @@ public class GroundDetector : MonoBehaviour
 
             Gizmos.DrawWireSphere(transform.position, _range);
             Gizmos.DrawWireSphere(hit.point, _range);
-        }
+        }     
     }
 }

@@ -7,6 +7,7 @@ namespace ULB.RPG.AISystems
         public Behaviour child { get; set; }
         private Func<bool> _condition;
 
+
         public Condition(Func<bool> condition)
         {
             _condition = condition;

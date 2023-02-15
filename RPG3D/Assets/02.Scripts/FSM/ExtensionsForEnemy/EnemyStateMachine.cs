@@ -16,18 +16,18 @@ namespace ULB.RPG.FSM
             Rigidbody rb = owner.GetComponent<Rigidbody>();
             GroundDetector groundDetector = owner.GetComponent<GroundDetector>();
 
-            IState move=new EnemyStateMove(id: (int)StateType.Move,
-                                           owner: owner,
-                                           canExecute: () => true,
-                                           transitions: new List<KeyValuePair<Func<bool>, int>>()
-                                           {
-                                               new KeyValuePair<Func<bool>, int>
-                                               (
-                                                   () => false,
-                                                   (int)default(StateType)
-                                               ),
-                                           },
-                                           hasExitTime: false);
+            IState move = new EnemyStateMove(id: (int)StateType.Move,
+                                             owner: owner,
+                                             canExecute: () => true,
+                                             transitions: new List<KeyValuePair<Func<bool>, int>>()
+                                             {
+                                                 new KeyValuePair<Func<bool>, int>
+                                                 (
+                                                     () => false,
+                                                     (int)default(StateType)
+                                                 ),
+                                             },
+                                             hasExitTime: false);
             states.Add(StateType.Move, move);
 
             IState attack = new EnemyStateAttack(id: (int)StateType.Attack,

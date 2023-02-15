@@ -1,12 +1,14 @@
-﻿namespace ULB.RPG.AISystems
+﻿
+
+namespace ULB.RPG.AISystems
 {
     public class Repeat : Decorator
     {
         public enum Policy
         {
-            DoesntMatte,
+            DoesntMatter,
             OnlySuccess,
-            OnlyFailure
+            OnlyFailure,
         }
         private Policy _policy;
         private int _times;
@@ -38,7 +40,7 @@
 
                 switch (_policy)
                 {
-                    case Policy.DoesntMatte:
+                    case Policy.DoesntMatter:
                         break;
                     case Policy.OnlySuccess:
                         if (tmpResult != Result.Success)
@@ -47,7 +49,7 @@
                         }
                         break;
                     case Policy.OnlyFailure:
-                        if (tmpResult != Result.Success)
+                        if (tmpResult != Result.Failure)
                         {
                             return tmpResult;
                         }

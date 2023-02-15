@@ -1,6 +1,6 @@
 ﻿namespace ULB.RPG.AISystems
 {
-    internal class Sequence : Composite
+    public class Sequence : Composite
     {
         public override Result Invoke(out Behaviour leaf)
         {

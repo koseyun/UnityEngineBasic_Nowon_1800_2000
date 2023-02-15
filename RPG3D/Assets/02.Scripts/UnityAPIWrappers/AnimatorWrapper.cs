@@ -19,7 +19,7 @@ namespace ULB.RPG
 
         [SerializeField] private int _monitorOnStateHash; // 감시자가 막 켜진 애니메이터 상태의 해시코드
         [SerializeField] private int _monitorOnStateHashMem; // 감시자가 직전에 켜졌었던 애니메이터 상태의 해시코드
-        [SerializeField] private int _monitorOffStateHash; // 감시자가 막 꺼진 애니메이터 상태의 해시코드        
+        [SerializeField] private int _monitorOffStateHash; // 감시자가 막 꺼진 애니메이터 상태의 해시코드
 
         [SerializeField] private Animator _animator;
 
@@ -30,9 +30,10 @@ namespace ULB.RPG
         public void SetBool(string paramName, bool value) => _animator.SetBool(paramName, value);
         public float GetFloat(string paramName) => _animator.GetFloat(paramName);
         public void SetFloat(string paramName, float value) => _animator.SetFloat(paramName, value);
-        public float GetInt(string paramName) => _animator.GetInteger(paramName);
+        public int GetInt(string paramName) => _animator.GetInteger(paramName);
         public void SetInt(string paramName, int value) => _animator.SetInteger(paramName, value);
         public void SetTrigger(string paramName) => _animator.SetTrigger(paramName);
+
 
         private void Awake()
         {
@@ -62,13 +63,15 @@ namespace ULB.RPG
                     _monitorOnStateHashMem = _monitorOnStateHash;
                     _monitorOnStateHash = hash;
                 };
-                
+
                 monitor.OnExit += (hash) =>
                 {
                     _monitorOffStateHash = hash;
                 };
             }
+
         }
+
     }
 }
 

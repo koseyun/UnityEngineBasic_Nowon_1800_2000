@@ -13,7 +13,7 @@ namespace ULB.RPG.FSM
             Idle,
             Prepare,
             Action,
-            Combo
+            Combo,
         }
         private Step _step;
 
@@ -55,7 +55,7 @@ namespace ULB.RPG.FSM
                             animator.SetBool("doCombo", true);
                             _step = Step.Combo;
                         }
-
+                        
                         if (animator.GetCurrentNormalizedTime(0) >= 0.98f)
                         {
                             return base.Update();
@@ -64,11 +64,11 @@ namespace ULB.RPG.FSM
                     break;
                 case Step.Combo:
                     {
-                        if (animator.isPreviousMachineFinished)
+                        if (animator.isPreviousStateFinished)
                         {
                             animator.SetBool("doCombo", false);
                             _step = Step.Prepare;
-                        }    
+                        }
                     }
                     break;
                 default:

@@ -1,15 +1,9 @@
-using System;
+using System; 
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using Unity.VisualScripting;
-
-/*[Singleton]
-public class dd : Singleton<dd>
-{
-
-}*/
 
 public class SingletonBase<T>
     where T : SingletonBase<T>
@@ -29,7 +23,7 @@ public class SingletonBase<T>
 
                     Debug.Log($"{_instance} is created");
                 }
-            }            
+            }
             return _instance;
         }
     }
@@ -38,6 +32,6 @@ public class SingletonBase<T>
 }
 
 public class Test : SingletonBase<Test>
-{ 
+{
 
 }

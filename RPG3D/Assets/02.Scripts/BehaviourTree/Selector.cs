@@ -8,7 +8,7 @@
             Result result;
             foreach (var child in children)
             {
-                result = child.Invoke(out leaf);
+                result = child.Invoke(out leaf);    
                 if (result != Result.Failure)
                     return result;
             }

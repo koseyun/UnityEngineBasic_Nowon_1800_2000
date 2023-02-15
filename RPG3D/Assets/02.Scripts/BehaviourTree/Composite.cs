@@ -10,7 +10,7 @@ namespace ULB.RPG.AISystems
     {
         public List<Behaviour> children { get; set; }
 
-        public Composite()
+        public Composite() 
         {
             children = new List<Behaviour>();
         }
