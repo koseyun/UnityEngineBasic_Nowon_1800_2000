@@ -26,6 +26,7 @@ Material:
   m_Name: mat_Sydney_Silent_buttons
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords:
+  - _NORMALMAP
   - _SPECULAR_SETUP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -54,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 117dd9ceb4b909f4fbd08c6a7f6666f0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3946fa27d4b0490439b29b38c85ac272, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -66,11 +67,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ClearCoatMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 117dd9ceb4b909f4fbd08c6a7f6666f0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
@@ -86,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 35e42890256e8a7499d41dc231eb1938, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -118,7 +115,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 117dd9ceb4b909f4fbd08c6a7f6666f0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3946fa27d4b0490439b29b38c85ac272, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -205,11 +202,9 @@ Material:
     - _Anisotropy: 0
     - _Blend: 0
     - _BlendMode: 0
-    - _BlendOp: 0
     - _BumpScale: 1
-    - _ClearCoat: 0
     - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 1
+    - _ClearCoatSmoothness: 0
     - _CoatMask: 0
     - _Cull: 2
     - _CullMode: 2
@@ -356,7 +351,7 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4700131496701965025
+--- !u!114 &2631894697442552716
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

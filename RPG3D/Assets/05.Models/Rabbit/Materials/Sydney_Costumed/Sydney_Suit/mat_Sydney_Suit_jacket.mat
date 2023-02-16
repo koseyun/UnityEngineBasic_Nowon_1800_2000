@@ -70,10 +70,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0bde033431b068c4894cfe3c193d57c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ClearCoatMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -206,11 +202,9 @@ Material:
     - _Anisotropy: 0
     - _Blend: 0
     - _BlendMode: 0
-    - _BlendOp: 0
     - _BumpScale: 1
-    - _ClearCoat: 0
     - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 1
+    - _ClearCoatSmoothness: 0
     - _CoatMask: 0
     - _Cull: 2
     - _CullMode: 2
@@ -357,7 +351,7 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6972239075227068391
+--- !u!114 &5896953525859738095
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
