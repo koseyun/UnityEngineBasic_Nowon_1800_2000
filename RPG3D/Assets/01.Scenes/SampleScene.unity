@@ -714,7 +714,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  _hpMax: 100
+  stats:
+    stats: []
+  _hpMax: 300
   _targetMask:
     serializedVersion: 2
     m_Bits: 32768
@@ -1282,7 +1284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1534920296}
-  equipment: {fileID: -8921163016493665423, guid: f0f31d6958f5de143bf9963ec2a41351,
+  equipment: {fileID: 2204843393887038822, guid: 11686688da3c381459d55aa299f09bf4,
     type: 3}
   _equip: {fileID: 683385394}
   _Unequip: {fileID: 831429178}
@@ -3035,7 +3037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4351237314720120, guid: 29c640f20d3d69a4daef0af17b12e987, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.018
+      value: 36.97
       objectReference: {fileID: 0}
     - target: {fileID: 4351237314720120, guid: 29c640f20d3d69a4daef0af17b12e987, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3043,7 +3045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4351237314720120, guid: 29c640f20d3d69a4daef0af17b12e987, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.391
+      value: 14.83
       objectReference: {fileID: 0}
     - target: {fileID: 4351237314720120, guid: 29c640f20d3d69a4daef0af17b12e987, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3105,6 +3107,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  stats:
+    stats:
+    - type: 0
+      modifiers: []
+    - type: 1
+      modifiers: []
+    - type: 2
+      modifiers: []
+    - type: 3
+      modifiers: []
   _hpMax: 0
   _animatorWrapper: {fileID: 1534920297}
   _rightHand: {fileID: 2075495311}
