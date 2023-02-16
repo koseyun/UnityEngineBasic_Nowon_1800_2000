@@ -17,7 +17,6 @@ namespace ULB.RPG.AISystems
             _maxTime = maxTime;
         }
 
-
         public override Result Invoke(out Behaviour leaf)
         {
             Result result;

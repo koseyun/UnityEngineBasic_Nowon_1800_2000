@@ -10,7 +10,6 @@ namespace ULB.RPG
         [SerializeField] private Transform _leftHand;
         [SerializeField] private BareHand _bareHand;
 
-
         public bool TryEquip(Equipment equipment)
         {
             switch (equipment.type)
@@ -168,6 +167,7 @@ namespace ULB.RPG
             
             return true;
         }
+
         public bool TryGetEquipment(Equipment.EquipType equipType, out Equipment equipment)
         {
             Transform equipPoint = null;
