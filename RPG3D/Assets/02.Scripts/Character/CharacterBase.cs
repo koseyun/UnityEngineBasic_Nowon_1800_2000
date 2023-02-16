@@ -73,7 +73,6 @@ namespace ULB.RPG
             UpdateMachine();
         }
 
-
         public virtual void FootR() { }
         public virtual void FootL() { }
         public virtual void Land() { }
