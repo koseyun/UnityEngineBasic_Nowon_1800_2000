@@ -1760,7 +1760,6 @@ Transform:
   m_Father: {fileID: 183376893}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &959254054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,8 +1881,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959254054}
   m_CullTransparentMesh: 1
-=======
->>>>>>> 5c2b7485632b83a22b41f76df09a85643939905b
 --- !u!1 &1081114266
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,7 +2241,7 @@ PrefabInstance:
     - target: {fileID: 201137591832031334, guid: 0f03772e01a575e4499548865689bdb1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 201137591832031334, guid: 0f03772e01a575e4499548865689bdb1,
         type: 3}
@@ -2986,7 +2983,7 @@ PrefabInstance:
     - target: {fileID: 201137591832031334, guid: 0f03772e01a575e4499548865689bdb1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 201137591832031334, guid: 0f03772e01a575e4499548865689bdb1,
         type: 3}
