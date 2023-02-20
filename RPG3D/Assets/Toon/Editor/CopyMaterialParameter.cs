@@ -23,7 +23,7 @@ namespace UnityChan
 
 		void OnGUI ()
 		{
-			source = (Material)EditorGUILayout.ObjectField ("Source material", source, typeof(Material),true);
+			source = (Material)EditorGUILayout.ObjectField ("Inv두새교Source material", source, typeof(Material),true);
 			target = (Material)EditorGUILayout.ObjectField ("Target material", target, typeof(Material),true);
 
             EditorGUILayout.Space();

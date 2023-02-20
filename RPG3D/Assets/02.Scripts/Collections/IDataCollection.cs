@@ -1,0 +1,37 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using ULB.RPG.DataModels;
+using UnityEngine;
+
+namespace ULB.RPG.Collections
+{
+    public interface IDataCollection<T> : IEnumerable<T>
+    {
+        int Count { get; }
+
+        event Action<T> OnItemAdded;
+        event Action<T> OnItemRemoved;
+        event Action<T> OnItemChanged;
+        event Action OnCollectionChanged;
+
+        void Add(T item);
+        bool Remove(T item);
+        bool Change(int index, T item);
+        bool Change(Predicate<T> match, T item);
+        void Clear();
+        bool Contains(T item);
+        T Find(Predicate<T> match);
+        int FindIndex(Predicate<T> match);
+    }
+
+    /*public class Test
+    {
+        ItemData _data;
+        IDataCollection<ItemData> _collection;
+        void Test()
+        {
+            _collection.Change(x => x.slotID == 1, new ItemData() { id = 2, num = 3, slotID = 2 });
+        }
+    }*/
+}
