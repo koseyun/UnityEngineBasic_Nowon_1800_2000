@@ -8,19 +8,19 @@ namespace ULB.RPG.Collections
 {
     public class ObservableCollection<T> : IDataCollection<T>
     {
-        public List<T> Items;
-
-        public event Action<T> OnItemAdded;
-        public event Action<T> OnItemRemoved;
-        public event Action<T> OnItemChanged;
-        public event Action OnCollectionChanged;
-
+        public List<T> Items = new List<T>();
         public int Count => Items.Count;
+        public T this[int index] => Items[index];
+
+        public event Action<int, T> OnItemAdded;
+        public event Action<int, T> OnItemRemoved;
+        public event Action<int, T> OnItemChanged;
+        public event Action OnCollectionChanged;
 
         public void Add(T item)
         {
             Items.Add(item);
-            OnItemAdded?.Invoke(item);
+            OnItemAdded?.Invoke(Count - 1, item);
             OnCollectionChanged?.Invoke();
         }
 
@@ -30,7 +30,7 @@ namespace ULB.RPG.Collections
                 index < Count)
             {
                 Items[index] = item;
-                OnItemChanged?.Invoke(item);
+                OnItemChanged?.Invoke(index, item);
                 OnCollectionChanged?.Invoke();
                 return true;
             }
@@ -70,9 +70,12 @@ namespace ULB.RPG.Collections
 
         public bool Remove(T item)
         {
-            if (Items.Remove(item))
+            //int index = Items.FindIndex(x => Comparer<T>.Default.Compare(x, item) == 0);
+            int index = Items.IndexOf(item);            
+            if (index >= 0)
             {
-                OnItemRemoved?.Invoke(item);
+                Items.RemoveAt(index);
+                OnItemRemoved?.Invoke(index, item);
                 OnCollectionChanged?.Invoke();
                 return true;
             }

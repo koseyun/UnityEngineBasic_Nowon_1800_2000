@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d7ecd0fd3932e47a666867388b107d, type: 3}
+  m_Name: Polearm
+  m_EditorClassIdentifier: 
+  id: 101
+  description: This is a Polearm
+  maxNum: 0
+  icon: {fileID: 0}
+  prefab: {fileID: 2924880818063899446, guid: 11686688da3c381459d55aa299f09bf4, type: 3}
