@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using ULB.RPG.DataDependencySources;
-using ULB.RPG.DataModels;
 using UnityEngine;
 
 namespace ULB.RPG.UI
@@ -27,7 +26,7 @@ namespace ULB.RPG.UI
             {
                 if (slotID > _slots.Count - 1)
                 {
-                    InventorySlot slot = Instantiate(_slotPrefab, _content);
+                    InventorySlot slot = Instantiate(_slotPrefab, _content);                 
                     _slots.Add(slot);
                 }
                 _slots[slotID].Set(itemData.id, itemData.num);

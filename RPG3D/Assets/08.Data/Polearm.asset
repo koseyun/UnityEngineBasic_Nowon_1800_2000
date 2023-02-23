@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5d7ecd0fd3932e47a666867388b107d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e905b66311078848884cb9ef7c3d944, type: 3}
   m_Name: Polearm
   m_EditorClassIdentifier: 
   id: 101
-  description: This is a Polearm
-  maxNum: 0
-  icon: {fileID: 0}
-  prefab: {fileID: 2924880818063899446, guid: 11686688da3c381459d55aa299f09bf4, type: 3}
+  description: This is a polearm
+  maxNum: 1
+  icon: {fileID: 21300000, guid: 4f64078a698016646a202487e7262049, type: 3}
+  prefab: {fileID: 2204843393887038822, guid: 11686688da3c381459d55aa299f09bf4, type: 3}

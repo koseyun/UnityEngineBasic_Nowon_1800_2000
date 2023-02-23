@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using ULB.RPG.Collections;
 using ULB.RPG.DataModels;
-using UnityEngine.UIElements;
+using System.Linq;
 
 namespace ULB.RPG.DataDependencySources
 {
@@ -16,7 +16,7 @@ namespace ULB.RPG.DataDependencySources
 
         #region Inventory Source
         public class InventorySource : ObservableCollection<ItemData>
-        {
+        { 
             public InventorySource(IEnumerable<ItemData> data)
             {
                 foreach (var item in data)
@@ -46,7 +46,6 @@ namespace ULB.RPG.DataDependencySources
             addCommand = new AddCommand();
             removeCommand = new RemoveCommand();
             swapCommand = new SwapCommand();
-            
         }
 
         #region Add command
@@ -66,17 +65,17 @@ namespace ULB.RPG.DataDependencySources
 
             public void Execute(ItemData item)
             {
-                int index = InventoryDataModel.instance.FindIndex(x => x.id == item.id);
+                int index = _dataModel.FindIndex(x => x.id == item.id);
                 if (index < 0)
                 {
-                    InventoryDataModel.instance.Add(item);
+                    _dataModel.Add(item);
                 }
                 else
                 {
                     _dataModel.Change(index, new ItemData(item.id, item.num + _dataModel.Items[index].num));
                 }
             }
-            
+
             public bool TryExecute(ItemData item)
             {
                 if (CanExecute(item))
@@ -108,16 +107,16 @@ namespace ULB.RPG.DataDependencySources
 
             public void Execute(ItemData item)
             {
-                int index = InventoryDataModel.instance.FindIndex(x => x.id == item.id);
-                /*if (index < 0)
-                {
-                    throw new System.Exception($"[InventoryPresenter] : 존재하지 않는 아이템을 삭제하려고 시도했습니다. {item.id}");
-                }
-                else if (item.num > _dataModel.Items[index].num)
-                {
-                    throw new System.Exception($"[InventoryPresenter] : {item.id} 를 {item.num} 개 삭제하려고 시도했지만 {_dataModel.Items[index].num} 개 밖에 존재하지 않습니다.");
-                }
-                else */
+                int index = _dataModel.FindIndex(x => x.id == item.id);
+                //if (index < 0)
+                //{
+                //    throw new System.Exception($"[InventoryPresenter] : 존재하지 않는 아이템을 삭제하려고 시도했습니다. {item.id}");
+                //}
+                //else if (item.num > _dataModel.Items[index].num)
+                //{
+                //    throw new System.Exception($"[InventoryPresenter] : {item.id} 를 {item.num} 개 삭제하려고 시도했지만 {_dataModel.Items[index].num} 개 밖에 존재하지 않습니다.");
+                //}
+                //else 
                 if (item.num == _dataModel.Items[index].num)
                 {
                     _dataModel.Remove(item);

@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -73,7 +74,6 @@ namespace ULB.RPG.AISystems
             _current = sequence;
             return this;
         }
-
         public BehaviourTree RandomSequence()
         {
             Composite sequence = new RandomSequence();

@@ -9,7 +9,7 @@ namespace ULB.RPG.DataModels
     [Serializable]
     public struct ItemData
     {
-        public static ItemData empty => new ItemData(-1, -1);
+        public static ItemData empty => new ItemData(-1, 0);
         public int id;
         public int num;
 
@@ -18,17 +18,17 @@ namespace ULB.RPG.DataModels
             this.id = id;
             this.num = num;
         }
+
+        public static bool operator ==(ItemData op1, ItemData op2)
+            => op1.id == op2.id && op1.num == op2.num;
+
+        public static bool operator !=(ItemData op1, ItemData op2)
+            => !(op1 == op2);
     }
 
     [Serializable]
     public class InventoryDataModel : SingletonBase<InventoryDataModel>, IDataCollection<ItemData>
     {
-        /*private class Data
-        {
-            public List<ItemData> items;
-        }
-        private Data _data;*/
-
         public List<ItemData> Items;
 
         public event Action<int, ItemData> OnItemAdded;
@@ -81,11 +81,12 @@ namespace ULB.RPG.DataModels
 
         public bool Remove(ItemData item)
         {
-            int index=Items.IndexOf(item);
+            int index = Items.IndexOf(item);
             if (index >= 0)
             {
                 Items.RemoveAt(index);
                 Save();
+                OnItemRemoved?.Invoke(index, item);
                 OnCollectionChanged?.Invoke();
                 return true;
             }

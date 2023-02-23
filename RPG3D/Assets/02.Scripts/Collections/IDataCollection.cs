@@ -24,14 +24,4 @@ namespace ULB.RPG.Collections
         T Find(Predicate<T> match);
         int FindIndex(Predicate<T> match);
     }
-
-    /*public class Test
-    {
-        ItemData _data;
-        IDataCollection<ItemData> _collection;
-        void Test()
-        {
-            _collection.Change(x => x.slotID == 1, new ItemData() { id = 2, num = 3, slotID = 2 });
-        }
-    }*/
 }

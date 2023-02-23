@@ -1,4 +1,6 @@
-﻿namespace ULB.RPG.AISystems
+﻿
+
+namespace ULB.RPG.AISystems
 {
     public class Repeat : Decorator
     {

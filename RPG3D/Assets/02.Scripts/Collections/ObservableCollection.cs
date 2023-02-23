@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Serialization;
 using UnityEngine;
 
 namespace ULB.RPG.Collections
@@ -70,8 +69,7 @@ namespace ULB.RPG.Collections
 
         public bool Remove(T item)
         {
-            //int index = Items.FindIndex(x => Comparer<T>.Default.Compare(x, item) == 0);
-            int index = Items.IndexOf(item);            
+            int index = Items.IndexOf(item);
             if (index >= 0)
             {
                 Items.RemoveAt(index);
