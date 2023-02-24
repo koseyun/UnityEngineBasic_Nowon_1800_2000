@@ -112,9 +112,9 @@ namespace ULB.RPG.DataDependencySources
                 //{
                 //    throw new System.Exception($"[InventoryPresenter] : 존재하지 않는 아이템을 삭제하려고 시도했습니다. {item.id}");
                 //}
-                //else if (item.num > _dataModel.Items[index].num)
+                //else if (item.num > _inventoryDataModel.Items[index].num)
                 //{
-                //    throw new System.Exception($"[InventoryPresenter] : {item.id} 를 {item.num} 개 삭제하려고 시도했지만 {_dataModel.Items[index].num} 개 밖에 존재하지 않습니다.");
+                //    throw new System.Exception($"[InventoryPresenter] : {item.id} 를 {item.num} 개 삭제하려고 시도했지만 {_inventoryDataModel.Items[index].num} 개 밖에 존재하지 않습니다.");
                 //}
                 //else 
                 if (item.num == _dataModel.Items[index].num)

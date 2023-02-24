@@ -13,6 +13,7 @@ namespace ULB.RPG.DataModels
         {
             get
             {
+                _instance = null;
                 if (_instance)
                 {
                     _instance = Instantiate(Resources.Load<ItemInfoAssets>("ItemInfoAssets"));

@@ -21,17 +21,17 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - PlayerEquipment
   - 
   - 
   - 
   - Enemy
   - 
   - 
-  - ItemPicker
+  - 
+  - 
   - ItemController
-  - 
-  - 
+  - ItemPicker
   - 
   - 
   - 

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using ULB.RPG;
@@ -11,4 +12,9 @@ public class ItemInfo : ScriptableObject
     public int maxNum;
     public Sprite icon;
     public Item prefab;
+
+    public void CreateNewHashCode()
+    {
+        HashCode.Combine("몇년몇월몇시몇분몇초" + "유저ID" + "유저닉네임" + "좌표" + "블라블라");
+    }
 }
