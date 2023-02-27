@@ -15,8 +15,6 @@ namespace ULB.RPG
         {
             switch (equipment.type)
             {
-                case Equipment.EquipType.None:
-                    break;
                 case Equipment.EquipType.RightHandWeapon:
                     {
                         // todo ->
@@ -61,9 +59,7 @@ namespace ULB.RPG
                     break;
                 case Equipment.EquipType.Bottom:
                     break;
-                case Equipment.EquipType.Dress:
-                    break;
-                case Equipment.EquipType.Feet:
+                case Equipment.EquipType.Head:
                     break;
                 case Equipment.EquipType.Ring:
                     break;
@@ -81,8 +77,6 @@ namespace ULB.RPG
         {
             switch (equipment.type)
             {
-                case Equipment.EquipType.None:
-                    break;
                 case Equipment.EquipType.RightHandWeapon:
                     {
                         Destroy(equipment);
@@ -110,9 +104,7 @@ namespace ULB.RPG
                     break;
                 case Equipment.EquipType.Bottom:
                     break;
-                case Equipment.EquipType.Dress:
-                    break;
-                case Equipment.EquipType.Feet:
+                case Equipment.EquipType.Head:
                     break;
                 case Equipment.EquipType.Ring:
                     break;
@@ -128,8 +120,6 @@ namespace ULB.RPG
         {
             switch (equipmentType)
             {
-                case Equipment.EquipType.None:
-                    break;
                 case Equipment.EquipType.RightHandWeapon:
                     {
                         if (_rightHand.childCount <= 0)
@@ -165,9 +155,7 @@ namespace ULB.RPG
                     break;
                 case Equipment.EquipType.Bottom:
                     break;
-                case Equipment.EquipType.Dress:
-                    break;
-                case Equipment.EquipType.Feet:
+                case Equipment.EquipType.Head:
                     break;
                 case Equipment.EquipType.Ring:
                     break;
@@ -175,7 +163,6 @@ namespace ULB.RPG
                     break;
                 default:
                     break;
-
             }
 
             
@@ -188,8 +175,6 @@ namespace ULB.RPG
 
             switch (equipType)
             {
-                case Equipment.EquipType.None:
-                    break;
                 case Equipment.EquipType.RightHandWeapon:
                     equipPoint = _rightHand;
                     break;
@@ -203,9 +188,7 @@ namespace ULB.RPG
                     break;
                 case Equipment.EquipType.Bottom:
                     break;
-                case Equipment.EquipType.Dress:
-                    break;
-                case Equipment.EquipType.Feet:
+                case Equipment.EquipType.Head:
                     break;
                 case Equipment.EquipType.Ring:
                     break;

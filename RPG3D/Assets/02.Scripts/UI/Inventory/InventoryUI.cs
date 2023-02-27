@@ -17,12 +17,17 @@ namespace ULB.RPG.UI
             _presenter = new InventoryPresenter();
 
             _slots = new List<InventorySlot>();
-            for (int i = 0; i < _presenter.source.Count; i++)
+            for (int i = 0; i < _presenter.inventorysource.Count; i++)
             {
                 _slots.Add(Instantiate(_slotPrefab, _content));
-                _slots[i].Set(_presenter.source[i].id, _presenter.source[i].num);
+                _slots[i].Set(_presenter.inventorysource[i].id, _presenter.inventorysource[i].num);
+                int slotID = i;
+                _slots[i].onUse += (itemID) =>
+                {
+                    _presenter.equipCommand.TryExecute(slotID, itemID);
+                };
             }
-            _presenter.source.OnItemAdded += (slotID, itemData) =>
+            _presenter.inventorysource.OnItemAdded += (slotID, itemData) =>
             {
                 if (slotID > _slots.Count - 1)
                 {
@@ -31,11 +36,11 @@ namespace ULB.RPG.UI
                 }
                 _slots[slotID].Set(itemData.id, itemData.num);
             };
-            _presenter.source.OnItemRemoved += (slotID, itemData) =>
+            _presenter.inventorysource.OnItemRemoved += (slotID, itemData) =>
             {
                 _slots[slotID].Set(itemData.id, itemData.num);
             };
-            _presenter.source.OnItemChanged += (slotID, itemData) =>
+            _presenter.inventorysource.OnItemChanged += (slotID, itemData) =>
             {
                 _slots[slotID].Set(itemData.id, itemData.num);
             };

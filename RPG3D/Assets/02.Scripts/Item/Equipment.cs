@@ -13,6 +13,7 @@ namespace ULB.RPG
             RightHandWeapon,
             LeftHandWeapon,
             DoubleHandWeapon,
+            Head,
             Top,
             Bottom,
             Dress,

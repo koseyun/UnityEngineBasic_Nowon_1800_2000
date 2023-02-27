@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using ULB.RPG.DataModels;
 using UnityEngine;
 
@@ -18,7 +17,7 @@ namespace ULB.RPG.Controllers
         [SerializeField] private float _oscillateSpeed = 2.0f;
         [SerializeField] private float _oscillateAmplitude = 0.1f;
 
-        public void SetItemInfo(ItemInfo itemInfo, int num)
+        public void Set(ItemInfo itemInfo, int num)
         {
             this.itemInfo = itemInfo;
             this.num = num;
@@ -34,7 +33,7 @@ namespace ULB.RPG.Controllers
                 _meshRenderer.materials = itemInfo.prefab.GetComponent<MeshRenderer>().sharedMaterials;
             }
 
-            //_inventoryDataModel = InventoryDataModel.instance;
+                //_inventoryDataModel = InventoryDataModel.instance;
             StartCoroutine(E_Init());
         }
 
@@ -54,8 +53,8 @@ namespace ULB.RPG.Controllers
             if (_hasPicked)
                 return;
 
-            int slotID = _inventoryDataModel.FindIndex(x => x.id == itemInfo.id &&
-                                                            x.num <= itemInfo.maxNum); // 기존에 동일한 아이템을 가지고 있다면 그 슬롯 반환
+            int slotID = _inventoryDataModel.FindIndex(x => x.id == itemInfo.id && 
+                                                            x.num + num <= itemInfo.maxNum); // 기존에 동일한 아이템을 가지고 있다면 그 슬롯 반환
             slotID = slotID >= 0 ? slotID : _inventoryDataModel.FindIndex(x => x == ItemData.empty); // 빈 슬롯 찾기
             if (slotID >= 0)
             {
@@ -72,7 +71,7 @@ namespace ULB.RPG.Controllers
             while (Vector3.Distance(transform.position, target.position) > 0.1f)
             {
                 transform.position = Vector3.Lerp(transform.position, target.position, (Time.time - timeMark) * _oscillateSpeed);
-                yield return null;                
+                yield return null;
             }
 
             StopAllCoroutines();

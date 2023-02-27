@@ -1,9 +1,6 @@
-﻿using Mono.Cecil;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 namespace ULB.RPG.DataModels
 {
@@ -13,8 +10,7 @@ namespace ULB.RPG.DataModels
         {
             get
             {
-                _instance = null;
-                if (_instance)
+                if (_instance == null)
                 {
                     _instance = Instantiate(Resources.Load<ItemInfoAssets>("ItemInfoAssets"));
                     _instance.Init();
@@ -27,7 +23,7 @@ namespace ULB.RPG.DataModels
         public ItemInfo this[int itemID] => _itemInfoDictionary[itemID];
 
         [SerializeField] private List<ItemInfo> _itemInfoList;
-        private Dictionary<int, ItemInfo> _itemInfoDictionary = new Dictionary<int, ItemInfo>();
+        private Dictionary<int , ItemInfo> _itemInfoDictionary= new Dictionary<int , ItemInfo>();
 
         private void Init()
         {
@@ -36,5 +32,6 @@ namespace ULB.RPG.DataModels
                 _itemInfoDictionary.Add(itemInfo.id, itemInfo);
             }
         }
+
     }
 }

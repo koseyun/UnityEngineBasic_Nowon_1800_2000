@@ -100,6 +100,7 @@ namespace ULB.RPG.DataModels
                 index < Count)
             {
                 Items[index] = item;
+                Save();
                 OnItemChanged?.Invoke(index, item);
                 OnCollectionChanged?.Invoke();
                 return true;
