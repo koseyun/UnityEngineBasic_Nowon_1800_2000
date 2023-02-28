@@ -39,7 +39,7 @@ namespace ULB.RPG.DataModels
         {
             if (System.IO.File.Exists(_path) == false)
             {
-                foreach (int index in Enum.GetValues(typeof(ItemEquippedSlot.EquipType)))
+                foreach (int index in Enum.GetValues(typeof(EquipType)))
                 {
                     Items.Add(-1);
                 }

@@ -16,4 +16,4 @@ MonoBehaviour:
   description: This is a Scythe
   maxNum: 1
   icon: {fileID: 21300000, guid: 53b62ccf4a172e84fa8d3e9fb4cdc01c, type: 3}
-  prefab: {fileID: -8921163016493665423, guid: f0f31d6958f5de143bf9963ec2a41351, type: 3}
+  prefab: {fileID: -8921163016493665423, guid: 9cb44c63f1b5aac468d320b572819ff8, type: 3}

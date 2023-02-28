@@ -60,17 +60,17 @@ namespace ULB.RPG.DataDependencySources
             };
 
             itemsEquippedSource = new ItemsEquippedSource(ItemsEquippedDataModel.instance);
-            ItemsEquippedSource.instance.OnItemAdded += (slotID, item) =>
+            ItemsEquippedDataModel.instance.OnItemAdded += (slotID, item) =>
             {
-                source.Add(item);
+                itemsEquippedSource.Add(item);
             };
-            ItemsEquippedSource.instance.OnItemRemoved += (slotID, item) =>
+            ItemsEquippedDataModel.instance.OnItemRemoved += (slotID, item) =>
             {
-                source.Remove(item);
+                itemsEquippedSource.Remove(item);
             };
-            ItemsEquippedSource.instance.OnItemChanged += (slotID, item) =>
+            ItemsEquippedDataModel.instance.OnItemChanged += (slotID, item) =>
             {
-                source.Change(slotID, item);
+                itemsEquippedSource.Change(slotID, item);
             };
 
             addCommand = new AddCommand();

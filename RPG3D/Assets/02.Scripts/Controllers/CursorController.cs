@@ -24,4 +24,3 @@ public class CursorController : SingletonMonoBase<CursorController>
         }
     }
 }
-
