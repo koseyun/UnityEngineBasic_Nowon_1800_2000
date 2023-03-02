@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3218651639354867161}
   - component: {fileID: 2204843393887038822}
   m_Layer: 16
-  m_Name: Polearm2_2_2
+  m_Name: Polearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

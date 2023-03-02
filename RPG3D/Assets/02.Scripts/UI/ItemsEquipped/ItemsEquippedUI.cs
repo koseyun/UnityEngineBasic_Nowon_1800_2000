@@ -14,15 +14,26 @@ public class ItemsEquippedUI : MonoBehaviour
     private void Awake()
     {        
         _presenter = new ItemsEquippedPresenter();
+
+        // 장착한 아이템 슬롯에 오른쪽 클릭시 이벤트 등록
         foreach (var slot in _slotList)
         {
             _slots.Add(slot.equipType, slot);
             slot.onRightClicked += (equipType, itemID) =>
             {
-                if (_presenter.unequipCommand.TryExecute(equipType, itemID) == false)
+                if (_presenter.unequipCommand.TryExecute(((Equipment)ItemInfoAssets.instance[itemID].prefab).type, itemID) == false)
                     throw new System.Exception($"[ItemEquippedSlot] : Failed to unequip {equipType} id : {itemID}");
             };
         }
+        
+        // 오른손무기 슬롯은 특별히 양손무기 장착중이었음녀 장착해제할 때
+        /*_slots[EquipType.RightHandWeapon].onRightClicked += (equipType, itemID) =>
+        {
+            if (((Equipment)ItemInfoAssets.instance[itemID].prefab).type == EquipType.DoubleHandWeapon)
+            {
+                _slots[EquipType.LeftHandWeapon].Clear();
+            }
+        };*/
 
         foreach (int itemID in _presenter.source)
         {
@@ -47,9 +58,10 @@ public class ItemsEquippedUI : MonoBehaviour
     {
         if (itemID < 0)
         {
-            _slots[equipType].Clear();
+            ClearSlot(equipType);
             return;
         }
+
         switch (equipType)
         {
             case EquipType.None:
@@ -129,6 +141,35 @@ public class ItemsEquippedUI : MonoBehaviour
             case EquipType.Necklace:
                 break;
             default:
+                break;
+        }
+    }
+
+    private void ClearSlot(EquipType equipType)
+    {
+        switch (equipType)
+        {
+            case EquipType.None:
+                break;
+            case EquipType.DoubleHandWeapon:
+                {
+                    _slots[EquipType.RightHandWeapon].Clear();
+                    _slots[EquipType.LeftHandWeapon].Clear();
+                }
+                break;
+            case EquipType.LeftHandWeapon:
+            case EquipType.RightHandWeapon:
+            case EquipType.Head:
+            case EquipType.Top:
+            case EquipType.Bottom:
+            case EquipType.Dress:
+            case EquipType.Feet:
+            case EquipType.Ring:
+            case EquipType.Necklace:
+            default:
+                {
+                    _slots[equipType].Clear();
+                }
                 break;
         }
     }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -2265440744618098871}
   - component: {fileID: -8921163016493665423}
   m_Layer: 16
-  m_Name: Scythe1_3_2
+  m_Name: Scythe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   description: 
-  type: 2
+  type: 3
   statModifiers:
   - type: 0
     value: 30
