@@ -9,6 +9,7 @@ using UnityEngine.UI;
 
 public class ItemEquippedSlot : MonoBehaviour, IPointerClickHandler
 {
+    public bool isEquipped;
     public EquipType equipType;
     [SerializeField] private Image _icon;
     private Color _origin;
