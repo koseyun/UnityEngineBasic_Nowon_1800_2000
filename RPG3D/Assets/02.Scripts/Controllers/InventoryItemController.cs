@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using ULB.RPG;
+using ULB.RPG.Controllers;
 using ULB.RPG.DataDependencySources;
 using ULB.RPG.DataModels;
 using ULB.RPG.UI;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -24,7 +27,7 @@ public class InventoryItemController : MonoBehaviour, IPointerClickHandler
                                                                                             out GameObject result,
                                                                                             1 << gameObject.layer))
             {
-                // Å¸ ÀÎº¥Åä¸® ½½·Ô Å¬¸¯½Ã ½º¿Ò
+                // íƒ€ ì¸ë²¤í† ë¦¬ ìŠ¬ë¡¯ í´ë¦­ì‹œ ìŠ¤ì™‘
                 if (result.TryGetComponent(out InventorySlot inventorySlot))
                 {
                     _inventoryDataModel.Change(_slotID, new ItemData(_inventoryDataModel.Items[inventorySlot.slotID].id,
@@ -32,7 +35,7 @@ public class InventoryItemController : MonoBehaviour, IPointerClickHandler
                     _inventoryDataModel.Change(inventorySlot.slotID, new ItemData(_itemID,
                                                                                   _itemNum));
                 }
-                // Àåºñ ½½·Ô Å¬¸¯½Ã ¾ÆÀÌÅÛ ÀåÂø
+                // ìž¥ë¹„ ìŠ¬ë¡¯ í´ë¦­ì‹œ ì•„ì´í…œ ìž¥ì°©
                 else if (result.TryGetComponent(out ItemEquippedSlot itemEquippedSlot))
                 {
                     int equipType = (int)itemEquippedSlot.equipType;
@@ -43,7 +46,6 @@ public class InventoryItemController : MonoBehaviour, IPointerClickHandler
                     {
                         _itemsEquippedDataModel.Change(equipType, _itemID);
                     }
-
                     /*if (_itemsEquippedDataModel.Items[equipType]<0)
                     {
                         _inventoryDataModel.Change(_slotID, ItemData.empty);
@@ -56,6 +58,15 @@ public class InventoryItemController : MonoBehaviour, IPointerClickHandler
                     }*/
                 }
             }
+            else
+            {
+                int itemID = _inventoryDataModel.Items[_slotID].id;
+                int equipType = (int)((Equipment)ItemInfoAssets.instance[itemID].prefab).type;
+                _inventoryDataModel.Change(_slotID, ItemData.empty);
+                _itemsEquippedDataModel.Change(equipType, itemID);
+                ItemController itemController = new GameObject().AddComponent<ItemController>();
+                itemController.Set(ItemInfoAssets.instance[itemID], 1);
+            }
         }
 
         CancelControl();
@@ -66,6 +77,10 @@ public class InventoryItemController : MonoBehaviour, IPointerClickHandler
         _slotID = slotID;
         _itemID = _inventoryDataModel.Items[_slotID].id;
         _itemNum = _inventoryDataModel.Items[_slotID].num;
+
+        if (ItemInfoAssets.instance[_itemID] != null)
+            _icon.sprite = ItemInfoAssets.instance[_itemID].icon;
+
         gameObject.SetActive(true);
     }
 
