@@ -27,6 +27,9 @@ namespace ULB.RPG.UI
                 _slots[i].slotID = slotID;
                 _slots[i].onUse += (itemID) =>
                 {
+                    if (itemID < 0)
+                        return;
+
                     if (_presenter.spendCommand.TryExecute(slotID, itemID))
                         Debug.Log($"[InventorySlot] : {slotID} 번째 슬롯의 아이템 {itemID} 를 소비했습니다.");
                     else if (_presenter.equipCommand.TryExecute(slotID, itemID))
@@ -35,6 +38,9 @@ namespace ULB.RPG.UI
 
                 _slots[i].onControl += (itemID) =>
                 {
+                    if (itemID < 0)
+                        return;
+
                     _inventoryItemController.StartControl(slotID);
                 };
             }
