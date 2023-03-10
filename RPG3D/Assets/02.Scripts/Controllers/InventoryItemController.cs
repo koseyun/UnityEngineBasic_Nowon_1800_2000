@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using ULB.RPG;
 using ULB.RPG.Controllers;
-using ULB.RPG.DataDependencySources;
 using ULB.RPG.DataModels;
 using ULB.RPG.UI;
 using Unity.VisualScripting;
@@ -18,6 +17,7 @@ public class InventoryItemController : MonoBehaviour, IPointerClickHandler
     private int _itemNum;
     private InventoryDataModel _inventoryDataModel;
     private ItemsEquippedDataModel _itemsEquippedDataModel;
+    [SerializeField] private ItemController _itemControllerPrefab;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -64,7 +64,7 @@ public class InventoryItemController : MonoBehaviour, IPointerClickHandler
                 int equipType = (int)((Equipment)ItemInfoAssets.instance[itemID].prefab).type;
                 _inventoryDataModel.Change(_slotID, ItemData.empty);
                 _itemsEquippedDataModel.Change(equipType, itemID);
-                ItemController itemController = new GameObject().AddComponent<ItemController>();
+                ItemController itemController = Instantiate(_itemControllerPrefab);
                 itemController.Set(ItemInfoAssets.instance[itemID], 1);
             }
         }
